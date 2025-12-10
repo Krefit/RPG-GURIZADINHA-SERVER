@@ -1782,7 +1782,7 @@
     },
     "icon": {
       "data": {
-        "item": "minecraft:enchanted_book"
+        "item": "minecraft:blaze_rod"
       },
       "type": "item"
     },
@@ -1812,7 +1812,7 @@
     },
     "icon": {
       "data": {
-        "item": "minecraft:enchanted_book"
+        "item": "minecraft:blaze_powder"
       },
       "type": "item"
     },
@@ -3582,7 +3582,7 @@
     },
     "icon": {
       "data": {
-        "item": "minecraft:enchanted_book"
+        "item": "minecraft:bucket"
       },
       "type": "item"
     },
@@ -3612,7 +3612,7 @@
     },
     "icon": {
       "data": {
-        "item": "minecraft:enchanted_book"
+        "item": "minecraft:water_bucket"
       },
       "type": "item"
     },
