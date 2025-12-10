@@ -1,0 +1,50 @@
+
+[general]
+	#是否启用周期性自动回收世界掉落物。
+	enableAutoCollect = true
+	#两次自动回收之间的间隔（tick）。20 tick = 1 秒。
+	#Range: 20 ~ 72000
+	ticksPerCollect = 72000
+	#每次回收后，回收站物品保留的时间（tick），到时自动清空。20 tick = 1 秒。
+	#Range: 0 ~ 72000
+	ticksKeepAfterCollect = 72000
+	#是否向在线玩家广播提示消息（预警、已回收、已清空等）。
+	announceMessages = true
+
+[blacklist]
+	#物品黑名单（物品 ID，形如 minecraft:nether_star）。黑名单内的物品不会被本模组清空/销毁。
+	items = ["minecraft:nether_star", "minecraft:totem_of_undying"]
+
+[void_protection]
+	#是否启用虚空物品保护（掉落物掉入虚空时，自动拉回到世界最低构建高度以上的安全位置）。
+	enableVoidProtect = true
+	#向上寻找空气可站立位置的最大步数（以方块为单位）。
+	#Range: 1 ~ 32
+	raiseMaxSteps = 6
+	#拉回时是否将物品速度清零。
+	resetVelocity = true
+
+[messages]
+	#消息前缀（支持渐变标签）。示例：<gradient:#00E5FF:#00FF7F>[清道夫]</gradient>
+	prefix = "<gradient:#00E5FF:#00FF7F>[ClearDrops]</gradient>"
+	#自动回收前的预警秒数列表（到这些秒数时会发送预警消息）。
+	warnSeconds = [60, 30, 10, 5, 4, 3, 2, 1]
+	#预警消息模板（支持占位符与渐变标签）。可用占位符：{time}（剩余秒数）。
+	msgPreCollect = "A coleta de itens dropados ocorrerá em {time}s! Pegue seus itens importantes!"
+	#自动回收完成消息模板。占位符：{entities}（实体数量）、{keep}（回收站保留秒数）。
+	msgCollected = "Coleta concluída! Foram coletados {entities} itens. Use /cleardrops gui para recuperar. A reciclagem será limpa em {keep}s."
+	#回收站清空消息模板。占位符：{slots}（被清空的槽位数）。
+	msgPurged = "A reciclagem expirou — {slots} slots foram esvaziados."
+	#状态消息模板。占位符：{slotsUsed}、{slotsTotal}、{items}、{keep}（倒计时或'未安排'）、{auto}、{interval}（秒）、{keepCfg}（秒）、{announce}。
+	msgStatus = "Reciclagem: {slotsUsed}/{slotsTotal} slots, {items} itens. Limpeza em: {keep}. Auto: {auto}, intervalo: {interval}s, retenção: {keepCfg}s, avisos: {announce}."
+	#help 文本（支持渐变标签与换行 \n）。建议给标题或命令加一个好看的渐变色。
+	msgHelp = "<gradient:#7AD7F0:#4FC3F7>Ajuda do ClearDrops</gradient>\\n<gradient:#A8FF78:#78FFD6>/cleardrops gui</gradient> - Abrir reciclagem\\n<gradient:#A8FF78:#78FFD6>/cleardrops status</gradient> - Ver status\\n<gradient:#FFD54F:#FF8A00>/cleardrops collect</gradient> - Coletar imediatamente (perm. 2)\\n<gradient:#FFD54F:#FF8A00>/cleardrops purge</gradient> - Limpar reciclagem (perm. 2)\\n<gradient:#B388FF:#7C4DFF>/cleardrops reload</gradient> - Recarregar config (perm. 2)"
+	#手动执行 /cleardrops collect 时的反馈消息。占位符：{entities}、{keep}。
+	msgCmdCollect = "Coleta manual realizada! {entities} itens coletados. Disponíveis na reciclagem por {keep}s."
+	#手动执行 /cleardrops collect 时如没有可清理的掉落物时的反馈消息。
+	msgCmdCollectNone = "Não há itens dropados para coletar!"
+	#自动回收时如果没有掉落物的广播消息。
+	msgAutoCollectNone = "Nenhum item dropado foi encontrado na coleta automática."
+	#手动执行 /cleardrops purge 时的反馈消息。占位符：{slots}。
+	msgCmdPurge = "Reciclagem limpa manualmente — {slots} slots esvaziados (itens da blacklist foram ignorados)."
+

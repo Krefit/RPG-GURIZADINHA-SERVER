@@ -1,0 +1,48 @@
+[general]
+	#Ativar coleta automática periódica de itens dropados no mundo.
+	enableAutoCollect = true
+	#Intervalo entre as coletas automáticas (ticks). 20 ticks = 1 segundo.
+	#Range: 20 ~ 72000
+	ticksPerCollect = 6000
+	#Tempo (ticks) que os itens permanecem na “reciclagem” após a coleta automática. Após esse tempo, são apagados. 20 ticks = 1 segundo.
+	#Range: 0 ~ 72000
+	ticksKeepAfterCollect = 2400
+	#Enviar mensagens de aviso aos jogadores online (pré-aviso, coleta concluída, reciclagem limpa, etc.).
+	announceMessages = true
+
+[blacklist]
+	#Lista negra de itens (IDs como minecraft:nether_star). Itens da blacklist NÃO serão coletados/limpos pelo mod.
+	items = ["minecraft:nether_star", "minecraft:totem_of_undying"]
+
+[void_protection]
+	#Ativar proteção contra queda no vazio (puxa itens que cairiam no void para uma posição segura no limite inferior do mundo).
+	enableVoidProtect = true
+	#Máximo de blocos procurados para cima ao tentar encontrar um local seguro.
+	#Range: 1 ~ 32
+	raiseMaxSteps = 6
+	#Se deve zerar a velocidade do item ao ser puxado de volta.
+	resetVelocity = true
+
+[messages]
+	#Prefixo das mensagens (suporta gradientes).
+	prefix = "<gradient:#00E5FF:#00FF7F>[ClearDrops]</gradient>"
+	#Segundos de pré-aviso antes da coleta automática (mensagens enviadas nesses tempos).
+	warnSeconds = [60, 30, 10, 5, 4, 3, 2, 1]
+	#Mensagem de pré-aviso. Placeholders: {time} (segundos restantes).
+	msgPreCollect = "A coleta de itens dropados ocorrerá em {time}s! Pegue seus itens importantes!"
+	#Mensagem após a coleta automática. Placeholders: {entities} (quantidade de entidades), {keep} (tempo em segundos até limpar a reciclagem).
+	msgCollected = "Coleta concluída! Foram coletados {entities} itens. Use /cleardrops gui para recuperar. A reciclagem será limpa em {keep}s."
+	#Mensagem quando a reciclagem expira e é apagada. Placeholder: {slots} (quantidade de slots apagados).
+	msgPurged = "A reciclagem expirou — {slots} slots foram esvaziados."
+	#Mensagem de status. Placeholders: {slotsUsed}, {slotsTotal}, {items}, {keep}, {auto}, {interval}, {keepCfg}, {announce}.
+	msgStatus = "Reciclagem: {slotsUsed}/{slotsTotal} slots, {items} itens. Limpeza em: {keep}. Auto: {auto}, intervalo: {interval}s, retenção: {keepCfg}s, avisos: {announce}."
+	#Mensagem de ajuda (suporta gradientes e quebras de linha \n).
+	msgHelp = "<gradient:#7AD7F0:#4FC3F7>Ajuda do ClearDrops</gradient>\\n<gradient:#A8FF78:#78FFD6>/cleardrops gui</gradient> - Abrir reciclagem\\n<gradient:#A8FF78:#78FFD6>/cleardrops status</gradient> - Ver status\\n<gradient:#FFD54F:#FF8A00>/cleardrops collect</gradient> - Coletar imediatamente (perm. 2)\\n<gradient:#FFD54F:#FF8A00>/cleardrops purge</gradient> - Limpar reciclagem (perm. 2)\\n<gradient:#B388FF:#7C4DFF>/cleardrops reload</gradient> - Recarregar config (perm. 2)"
+	#Mensagem ao executar /cleardrops collect manualmente. Placeholders: {entities}, {keep}.
+	msgCmdCollect = "Coleta manual realizada! {entities} itens coletados. Disponíveis na reciclagem por {keep}s."
+	#Mensagem ao executar /cleardrops collect quando não há itens para coletar.
+	msgCmdCollectNone = "Não há itens dropados para coletar!"
+	#Mensagem enviada quando o auto-collect ocorre e não há itens para limpar.
+	msgAutoCollectNone = "Nenhum item dropado foi encontrado na coleta automática."
+	#Mensagem ao executar /cleardrops purge manualmente. Placeholder: {slots}.
+	msgCmdPurge = "Reciclagem limpa manualmente — {slots} slots esvaziados (itens da blacklist foram ignorados)."

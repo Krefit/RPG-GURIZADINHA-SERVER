@@ -1,0 +1,3632 @@
+{
+  "additionalentityattributes:bonus_loot_count_rolls": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta bônus saques quantidade rolagens."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:paper"
+      },
+      "type": "item"
+    },
+    "required_mods": ["additionalentityattributes"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "additionalentityattributes:bonus_loot_count_rolls",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Bônus Saques Quantidade Rolagens"
+  },
+  "additionalentityattributes:bonus_rare_loot_rolls": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta bônus raros saques rolagens."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:paper"
+      },
+      "type": "item"
+    },
+    "required_mods": ["additionalentityattributes"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "additionalentityattributes:bonus_rare_loot_rolls",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Bônus Raros Saques Rolagens"
+  },
+  "additionalentityattributes:critical_bonus_damage": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta crítico bônus dano."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:iron_sword"
+      },
+      "type": "item"
+    },
+    "required_mods": ["additionalentityattributes"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "additionalentityattributes:critical_bonus_damage",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Crítico Bônus Dano"
+  },
+  "additionalentityattributes:dig_speed": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta escavação velocidade."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:leather_boots"
+      },
+      "type": "item"
+    },
+    "required_mods": ["additionalentityattributes"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "additionalentityattributes:dig_speed",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Escavação Velocidade"
+  },
+  "additionalentityattributes:dropped_experience": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta dropado experiência."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:experience_bottle"
+      },
+      "type": "item"
+    },
+    "required_mods": ["additionalentityattributes"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "additionalentityattributes:dropped_experience",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Dropado Experiência"
+  },
+  "additionalentityattributes:lava_speed": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta lava velocidade."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:leather_boots"
+      },
+      "type": "item"
+    },
+    "required_mods": ["additionalentityattributes"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "additionalentityattributes:lava_speed",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Lava Velocidade"
+  },
+  "additionalentityattributes:lava_visibility": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta lava visibilidade."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:paper"
+      },
+      "type": "item"
+    },
+    "required_mods": ["additionalentityattributes"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "additionalentityattributes:lava_visibility",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Lava Visibilidade"
+  },
+  "additionalentityattributes:lung_capacity": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta pulmão capacidade."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:paper"
+      },
+      "type": "item"
+    },
+    "required_mods": ["additionalentityattributes"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "additionalentityattributes:lung_capacity",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Pulmão Capacidade"
+  },
+  "additionalentityattributes:magic_protection": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta mágica proteção."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:enchanted_book"
+      },
+      "type": "item"
+    },
+    "required_mods": ["additionalentityattributes"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "additionalentityattributes:magic_protection",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Mágica Proteção"
+  },
+  "additionalentityattributes:water_speed": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta água velocidade."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:leather_boots"
+      },
+      "type": "item"
+    },
+    "required_mods": ["additionalentityattributes"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "additionalentityattributes:water_speed",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Água Velocidade"
+  },
+  "additionalentityattributes:water_visibility": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta água visibilidade."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:paper"
+      },
+      "type": "item"
+    },
+    "required_mods": ["additionalentityattributes"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "additionalentityattributes:water_visibility",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Água Visibilidade"
+  },
+  "attributeslib:armor_pierce": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta armadura perfuração."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:shield"
+      },
+      "type": "item"
+    },
+    "required_mods": ["attributeslib"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "attributeslib:armor_pierce",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Armadura Perfuração"
+  },
+  "attributeslib:armor_shred": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta armadura rasgo."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:shield"
+      },
+      "type": "item"
+    },
+    "required_mods": ["attributeslib"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "attributeslib:armor_shred",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Armadura Rasgo"
+  },
+  "attributeslib:arrow_damage": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta flecha dano."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:iron_sword"
+      },
+      "type": "item"
+    },
+    "required_mods": ["attributeslib"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "attributeslib:arrow_damage",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Flecha Dano"
+  },
+  "attributeslib:arrow_velocity": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta flecha velocidade."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:paper"
+      },
+      "type": "item"
+    },
+    "required_mods": ["attributeslib"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "attributeslib:arrow_velocity",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Flecha Velocidade"
+  },
+  "attributeslib:cold_damage": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta gélido dano."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:iron_sword"
+      },
+      "type": "item"
+    },
+    "required_mods": ["attributeslib"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "attributeslib:cold_damage",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Gélido Dano"
+  },
+  "attributeslib:creative_flight": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta criativo voo."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:paper"
+      },
+      "type": "item"
+    },
+    "required_mods": ["attributeslib"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "attributeslib:creative_flight",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Criativo Voo"
+  },
+  "attributeslib:crit_chance": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta crítico chance."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:paper"
+      },
+      "type": "item"
+    },
+    "required_mods": ["attributeslib"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "attributeslib:crit_chance",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Crítico Chance"
+  },
+  "attributeslib:crit_damage": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta crítico dano."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:iron_sword"
+      },
+      "type": "item"
+    },
+    "required_mods": ["attributeslib"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "attributeslib:crit_damage",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Crítico Dano"
+  },
+  "attributeslib:current_hp_damage": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta atual vida dano."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:iron_sword"
+      },
+      "type": "item"
+    },
+    "required_mods": ["attributeslib"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "attributeslib:current_hp_damage",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Atual Vida Dano"
+  },
+  "attributeslib:dodge_chance": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta esquiva chance."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:paper"
+      },
+      "type": "item"
+    },
+    "required_mods": ["attributeslib"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "attributeslib:dodge_chance",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Esquiva Chance"
+  },
+  "attributeslib:draw_speed": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta sacar velocidade."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:leather_boots"
+      },
+      "type": "item"
+    },
+    "required_mods": ["attributeslib"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "attributeslib:draw_speed",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Sacar Velocidade"
+  },
+  "attributeslib:elytra_flight": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta élitros voo."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:paper"
+      },
+      "type": "item"
+    },
+    "required_mods": ["attributeslib"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "attributeslib:elytra_flight",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Élitros Voo"
+  },
+  "attributeslib:experience_gained": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta experiência ganha."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:experience_bottle"
+      },
+      "type": "item"
+    },
+    "required_mods": ["attributeslib"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "attributeslib:experience_gained",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Experiência Ganha"
+  },
+  "attributeslib:fire_damage": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta fogo dano."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:iron_sword"
+      },
+      "type": "item"
+    },
+    "required_mods": ["attributeslib"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "attributeslib:fire_damage",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Fogo Dano"
+  },
+  "attributeslib:ghost_health": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta fantasma vida."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:golden_apple"
+      },
+      "type": "item"
+    },
+    "required_mods": ["attributeslib"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "attributeslib:ghost_health",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Fantasma Vida"
+  },
+  "attributeslib:healing_received": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta cura recebida."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:golden_apple"
+      },
+      "type": "item"
+    },
+    "required_mods": ["attributeslib"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "attributeslib:healing_received",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Cura Recebida"
+  },
+  "attributeslib:life_steal": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta vida dreno."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:paper"
+      },
+      "type": "item"
+    },
+    "required_mods": ["attributeslib"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "attributeslib:life_steal",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Vida Dreno"
+  },
+  "attributeslib:mining_speed": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta mineração velocidade."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:leather_boots"
+      },
+      "type": "item"
+    },
+    "required_mods": ["attributeslib"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "attributeslib:mining_speed",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Mineração Velocidade"
+  },
+  "attributeslib:overheal": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta cura extra."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:golden_apple"
+      },
+      "type": "item"
+    },
+    "required_mods": ["attributeslib"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "attributeslib:overheal",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Cura Extra"
+  },
+  "attributeslib:prot_pierce": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta proteção perfuração."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:paper"
+      },
+      "type": "item"
+    },
+    "required_mods": ["attributeslib"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "attributeslib:prot_pierce",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Proteção Perfuração"
+  },
+  "attributeslib:prot_shred": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta proteção rasgo."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:paper"
+      },
+      "type": "item"
+    },
+    "required_mods": ["attributeslib"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "attributeslib:prot_shred",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Proteção Rasgo"
+  },
+  "caelus:fall_flying": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta queda voo."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:leather_boots"
+      },
+      "type": "item"
+    },
+    "required_mods": ["caelus"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "caelus:fall_flying",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Queda Voo"
+  },
+  "epicfight:armor_negation": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta armadura negation."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:shield"
+      },
+      "type": "item"
+    },
+    "required_mods": ["epicfight"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "epicfight:armor_negation",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Armadura Negation"
+  },
+  "epicfight:impact": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta impacto."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:iron_sword"
+      },
+      "type": "item"
+    },
+    "required_mods": ["epicfight"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "epicfight:impact",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Impacto"
+  },
+  "epicfight:max_strikes": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta máximo golpes."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:iron_sword"
+      },
+      "type": "item"
+    },
+    "required_mods": ["epicfight"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "epicfight:max_strikes",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Máximo Golpes"
+  },
+  "epicfight:offhand_armor_negation": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta mão secundária armadura negation."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:shield"
+      },
+      "type": "item"
+    },
+    "required_mods": ["epicfight"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "epicfight:offhand_armor_negation",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Mão Secundária Armadura Negation"
+  },
+  "epicfight:offhand_attack_speed": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta mão secundária ataque velocidade."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:iron_sword"
+      },
+      "type": "item"
+    },
+    "required_mods": ["epicfight"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "epicfight:offhand_attack_speed",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Mão Secundária Ataque Velocidade"
+  },
+  "epicfight:offhand_impact": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta mão secundária impacto."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:iron_sword"
+      },
+      "type": "item"
+    },
+    "required_mods": ["epicfight"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "epicfight:offhand_impact",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Mão Secundária Impacto"
+  },
+  "epicfight:offhand_max_strikes": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta mão secundária máximo golpes."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:iron_sword"
+      },
+      "type": "item"
+    },
+    "required_mods": ["epicfight"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "epicfight:offhand_max_strikes",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Mão Secundária Máximo Golpes"
+  },
+  "epicfight:stamina_regen": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta vigor regeneração."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:beef"
+      },
+      "type": "item"
+    },
+    "required_mods": ["epicfight"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "epicfight:stamina_regen",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Vigor Regeneração"
+  },
+  "epicfight:stun_armor": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta atordoamento armadura."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:shield"
+      },
+      "type": "item"
+    },
+    "required_mods": ["epicfight"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "epicfight:stun_armor",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Atordoamento Armadura"
+  },
+  "epicfight:weight": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta peso."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:beef"
+      },
+      "type": "item"
+    },
+    "required_mods": ["epicfight"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "epicfight:weight",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Peso"
+  },
+  "forge:block_reach": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta bloco alcance."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:leather_boots"
+      },
+      "type": "item"
+    },
+    "required_mods": ["forge"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "forge:block_reach",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Bloco Alcance"
+  },
+  "forge:entity_gravity": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta entidade gravidade."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:paper"
+      },
+      "type": "item"
+    },
+    "required_mods": ["forge"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "forge:entity_gravity",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Entidade Gravidade"
+  },
+  "forge:entity_reach": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta entidade alcance."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:leather_boots"
+      },
+      "type": "item"
+    },
+    "required_mods": ["forge"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "forge:entity_reach",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Entidade Alcance"
+  },
+  "forge:nametag_distance": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta nome visível distância."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:paper"
+      },
+      "type": "item"
+    },
+    "required_mods": ["forge"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "forge:nametag_distance",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Nome Visível Distância"
+  },
+  "forge:step_height_addition": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta step height addition."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:leather_boots"
+      },
+      "type": "item"
+    },
+    "required_mods": ["forge"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "forge:step_height_addition",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Step Height Addition"
+  },
+  "forge:swim_speed": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta nado velocidade."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:leather_boots"
+      },
+      "type": "item"
+    },
+    "required_mods": ["forge"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "forge:swim_speed",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Nado Velocidade"
+  },
+  "irons_spellbooks:blood_magic_resist": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta sangue mágica resist."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:enchanted_book"
+      },
+      "type": "item"
+    },
+    "required_mods": ["irons_spellbooks"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "irons_spellbooks:blood_magic_resist",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Sangue Mágica Resist"
+  },
+  "irons_spellbooks:blood_spell_power": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta sangue poder de magia."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:enchanted_book"
+      },
+      "type": "item"
+    },
+    "required_mods": ["irons_spellbooks"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "irons_spellbooks:blood_spell_power",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Sangue Poder de Magia"
+  },
+  "irons_spellbooks:cast_time_reduction": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta conjuração tempo redução."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:paper"
+      },
+      "type": "item"
+    },
+    "required_mods": ["irons_spellbooks"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "irons_spellbooks:cast_time_reduction",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Conjuração Tempo Redução"
+  },
+  "irons_spellbooks:cooldown_reduction": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta recarga redução."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:paper"
+      },
+      "type": "item"
+    },
+    "required_mods": ["irons_spellbooks"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "irons_spellbooks:cooldown_reduction",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Recarga Redução"
+  },
+  "irons_spellbooks:eldritch_magic_resist": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta profano mágica resist."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:enchanted_book"
+      },
+      "type": "item"
+    },
+    "required_mods": ["irons_spellbooks"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "irons_spellbooks:eldritch_magic_resist",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Profano Mágica Resist"
+  },
+  "irons_spellbooks:eldritch_spell_power": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta profano poder de magia."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:enchanted_book"
+      },
+      "type": "item"
+    },
+    "required_mods": ["irons_spellbooks"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "irons_spellbooks:eldritch_spell_power",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Profano Poder de Magia"
+  },
+  "irons_spellbooks:ender_magic_resist": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta do end mágica resist."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:enchanted_book"
+      },
+      "type": "item"
+    },
+    "required_mods": ["irons_spellbooks"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "irons_spellbooks:ender_magic_resist",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "do End Mágica Resist"
+  },
+  "irons_spellbooks:ender_spell_power": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta do end poder de magia."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:enchanted_book"
+      },
+      "type": "item"
+    },
+    "required_mods": ["irons_spellbooks"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "irons_spellbooks:ender_spell_power",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "do End Poder de Magia"
+  },
+  "irons_spellbooks:evocation_magic_resist": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta evocação mágica resist."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:enchanted_book"
+      },
+      "type": "item"
+    },
+    "required_mods": ["irons_spellbooks"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "irons_spellbooks:evocation_magic_resist",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Evocação Mágica Resist"
+  },
+  "irons_spellbooks:evocation_spell_power": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta evocação poder de magia."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:enchanted_book"
+      },
+      "type": "item"
+    },
+    "required_mods": ["irons_spellbooks"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "irons_spellbooks:evocation_spell_power",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Evocação Poder de Magia"
+  },
+  "irons_spellbooks:fire_magic_resist": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta fogo mágica resist."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:enchanted_book"
+      },
+      "type": "item"
+    },
+    "required_mods": ["irons_spellbooks"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "irons_spellbooks:fire_magic_resist",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Fogo Mágica Resist"
+  },
+  "irons_spellbooks:fire_spell_power": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta fogo poder de magia."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:enchanted_book"
+      },
+      "type": "item"
+    },
+    "required_mods": ["irons_spellbooks"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "irons_spellbooks:fire_spell_power",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Fogo Poder de Magia"
+  },
+  "irons_spellbooks:holy_magic_resist": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta sagrado mágica resist."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:enchanted_book"
+      },
+      "type": "item"
+    },
+    "required_mods": ["irons_spellbooks"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "irons_spellbooks:holy_magic_resist",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Sagrado Mágica Resist"
+  },
+  "irons_spellbooks:holy_spell_power": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta sagrado poder de magia."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:enchanted_book"
+      },
+      "type": "item"
+    },
+    "required_mods": ["irons_spellbooks"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "irons_spellbooks:holy_spell_power",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Sagrado Poder de Magia"
+  },
+  "irons_spellbooks:ice_magic_resist": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta gelo mágica resist."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:enchanted_book"
+      },
+      "type": "item"
+    },
+    "required_mods": ["irons_spellbooks"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "irons_spellbooks:ice_magic_resist",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Gelo Mágica Resist"
+  },
+  "irons_spellbooks:ice_spell_power": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta gelo poder de magia."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:enchanted_book"
+      },
+      "type": "item"
+    },
+    "required_mods": ["irons_spellbooks"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "irons_spellbooks:ice_spell_power",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Gelo Poder de Magia"
+  },
+  "irons_spellbooks:lightning_magic_resist": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta relâmpago mágica resist."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:enchanted_book"
+      },
+      "type": "item"
+    },
+    "required_mods": ["irons_spellbooks"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "irons_spellbooks:lightning_magic_resist",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Relâmpago Mágica Resist"
+  },
+  "irons_spellbooks:lightning_spell_power": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta relâmpago poder de magia."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:enchanted_book"
+      },
+      "type": "item"
+    },
+    "required_mods": ["irons_spellbooks"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "irons_spellbooks:lightning_spell_power",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Relâmpago Poder de Magia"
+  },
+  "irons_spellbooks:mana_regen": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta mana regeneração."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:enchanted_book"
+      },
+      "type": "item"
+    },
+    "required_mods": ["irons_spellbooks"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "irons_spellbooks:mana_regen",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Mana Regeneração"
+  },
+  "irons_spellbooks:max_mana": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta máximo mana."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:enchanted_book"
+      },
+      "type": "item"
+    },
+    "required_mods": ["irons_spellbooks"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "irons_spellbooks:max_mana",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Máximo Mana"
+  },
+  "irons_spellbooks:nature_magic_resist": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta natureza mágica resist."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:enchanted_book"
+      },
+      "type": "item"
+    },
+    "required_mods": ["irons_spellbooks"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "irons_spellbooks:nature_magic_resist",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Natureza Mágica Resist"
+  },
+  "irons_spellbooks:nature_spell_power": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta natureza poder de magia."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:enchanted_book"
+      },
+      "type": "item"
+    },
+    "required_mods": ["irons_spellbooks"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "irons_spellbooks:nature_spell_power",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Natureza Poder de Magia"
+  },
+  "irons_spellbooks:spell_power": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta poder de magia."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:enchanted_book"
+      },
+      "type": "item"
+    },
+    "required_mods": ["irons_spellbooks"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "irons_spellbooks:spell_power",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Poder de Magia"
+  },
+  "irons_spellbooks:spell_resist": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta magia resist."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:enchanted_book"
+      },
+      "type": "item"
+    },
+    "required_mods": ["irons_spellbooks"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "irons_spellbooks:spell_resist",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Magia Resist"
+  },
+  "irons_spellbooks:summon_damage": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta invocação dano."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:iron_sword"
+      },
+      "type": "item"
+    },
+    "required_mods": ["irons_spellbooks"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "irons_spellbooks:summon_damage",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Invocação Dano"
+  },
+  "minecraft:generic.armor": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta armadura."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:shield"
+      },
+      "type": "item"
+    },
+    "required_mods": [],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "generic.armor",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Armadura"
+  },
+  "minecraft:generic.armor_toughness": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta armadura tenacidade."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:shield"
+      },
+      "type": "item"
+    },
+    "required_mods": [],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "generic.armor_toughness",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Armadura Tenacidade"
+  },
+  "minecraft:generic.attack_damage": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta ataque dano."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:iron_sword"
+      },
+      "type": "item"
+    },
+    "required_mods": [],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "generic.attack_damage",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Ataque Dano"
+  },
+  "minecraft:generic.attack_knockback": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta ataque recuo."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:iron_sword"
+      },
+      "type": "item"
+    },
+    "required_mods": [],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "generic.attack_knockback",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Ataque Recuo"
+  },
+  "minecraft:generic.attack_speed": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta ataque velocidade."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:iron_sword"
+      },
+      "type": "item"
+    },
+    "required_mods": [],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "generic.attack_speed",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Ataque Velocidade"
+  },
+  "minecraft:generic.knockback_resistance": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta recuo resistência."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:shield"
+      },
+      "type": "item"
+    },
+    "required_mods": [],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "generic.knockback_resistance",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Recuo Resistência"
+  },
+  "minecraft:generic.luck": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta sorte."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:experience_bottle"
+      },
+      "type": "item"
+    },
+    "required_mods": [],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "generic.luck",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Sorte"
+  },
+  "minecraft:generic.max_health": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta máximo vida."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:golden_apple"
+      },
+      "type": "item"
+    },
+    "required_mods": [],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "generic.max_health",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Máximo Vida"
+  },
+  "minecraft:generic.movement_speed": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta movimento velocidade."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:leather_boots"
+      },
+      "type": "item"
+    },
+    "required_mods": [],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "generic.movement_speed",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Movimento Velocidade"
+  },
+  "puffish_attributes:armor_shred": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta armadura rasgo."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:shield"
+      },
+      "type": "item"
+    },
+    "required_mods": ["puffish_attributes"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "puffish_attributes:armor_shred",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Armadura Rasgo"
+  },
+  "puffish_attributes:axe_speed": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta machado velocidade."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:leather_boots"
+      },
+      "type": "item"
+    },
+    "required_mods": ["puffish_attributes"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "puffish_attributes:axe_speed",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Machado Velocidade"
+  },
+  "puffish_attributes:bow_projectile_speed": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta arco projétil velocidade."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:leather_boots"
+      },
+      "type": "item"
+    },
+    "required_mods": ["puffish_attributes"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "puffish_attributes:bow_projectile_speed",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Arco Projétil Velocidade"
+  },
+  "puffish_attributes:crossbow_projectile_speed": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta besta projétil velocidade."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:leather_boots"
+      },
+      "type": "item"
+    },
+    "required_mods": ["puffish_attributes"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "puffish_attributes:crossbow_projectile_speed",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Besta Projétil Velocidade"
+  },
+  "puffish_attributes:experience": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta experiência."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:experience_bottle"
+      },
+      "type": "item"
+    },
+    "required_mods": ["puffish_attributes"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "puffish_attributes:experience",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Experiência"
+  },
+  "puffish_attributes:fall_reduction": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta queda redução."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:paper"
+      },
+      "type": "item"
+    },
+    "required_mods": ["puffish_attributes"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "puffish_attributes:fall_reduction",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Queda Redução"
+  },
+  "puffish_attributes:fortune": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta fortuna."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:experience_bottle"
+      },
+      "type": "item"
+    },
+    "required_mods": ["puffish_attributes"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "puffish_attributes:fortune",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Fortuna"
+  },
+  "puffish_attributes:healing": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta cura."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:golden_apple"
+      },
+      "type": "item"
+    },
+    "required_mods": ["puffish_attributes"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "puffish_attributes:healing",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Cura"
+  },
+  "puffish_attributes:jump": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta pulo."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:leather_boots"
+      },
+      "type": "item"
+    },
+    "required_mods": ["puffish_attributes"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "puffish_attributes:jump",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Pulo"
+  },
+  "puffish_attributes:knockback": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta recuo."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:paper"
+      },
+      "type": "item"
+    },
+    "required_mods": ["puffish_attributes"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "puffish_attributes:knockback",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Recuo"
+  },
+  "puffish_attributes:life_steal": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta vida dreno."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:paper"
+      },
+      "type": "item"
+    },
+    "required_mods": ["puffish_attributes"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "puffish_attributes:life_steal",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Vida Dreno"
+  },
+  "puffish_attributes:magic_damage": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta mágica dano."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:enchanted_book"
+      },
+      "type": "item"
+    },
+    "required_mods": ["puffish_attributes"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Mágica Dano"
+  },
+  "puffish_attributes:magic_resistance": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta resistência mágica."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:enchanted_book"
+      },
+      "type": "item"
+    },
+    "required_mods": ["puffish_attributes"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "puffish_attributes:magic_resistance",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Resistência Mágica"
+  },
+  "puffish_attributes:magic_resistance_shred": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta resistência mágica rasgo."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:enchanted_book"
+      },
+      "type": "item"
+    },
+    "required_mods": ["puffish_attributes"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "puffish_attributes:magic_resistance_shred",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Resistência Mágica Rasgo"
+  },
+  "puffish_attributes:melee_damage": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta melee dano."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:iron_sword"
+      },
+      "type": "item"
+    },
+    "required_mods": ["puffish_attributes"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Melee Dano"
+  },
+  "puffish_attributes:melee_resistance": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta melee resistência."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:shield"
+      },
+      "type": "item"
+    },
+    "required_mods": ["puffish_attributes"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "puffish_attributes:melee_resistance",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Melee Resistência"
+  },
+  "puffish_attributes:melee_resistance_shred": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta melee resistência rasgo."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:shield"
+      },
+      "type": "item"
+    },
+    "required_mods": ["puffish_attributes"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "puffish_attributes:melee_resistance_shred",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Melee Resistência Rasgo"
+  },
+  "puffish_attributes:mining_speed": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta mineração velocidade."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:leather_boots"
+      },
+      "type": "item"
+    },
+    "required_mods": ["puffish_attributes"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "puffish_attributes:mining_speed",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Mineração Velocidade"
+  },
+  "puffish_attributes:natural_regeneration": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta natural regeneração."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:golden_apple"
+      },
+      "type": "item"
+    },
+    "required_mods": ["puffish_attributes"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "puffish_attributes:natural_regeneration",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Natural Regeneração"
+  },
+  "puffish_attributes:pickaxe_speed": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta picareta velocidade."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:leather_boots"
+      },
+      "type": "item"
+    },
+    "required_mods": ["puffish_attributes"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "puffish_attributes:pickaxe_speed",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Picareta Velocidade"
+  },
+  "puffish_attributes:protection_shred": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta proteção rasgo."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:shield"
+      },
+      "type": "item"
+    },
+    "required_mods": ["puffish_attributes"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "puffish_attributes:protection_shred",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Proteção Rasgo"
+  },
+  "puffish_attributes:ranged_damage": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta à distância dano."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:iron_sword"
+      },
+      "type": "item"
+    },
+    "required_mods": ["puffish_attributes"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "puffish_attributes:ranged_damage",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "à Distância Dano"
+  },
+  "puffish_attributes:ranged_resistance": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta à distância resistência."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:shield"
+      },
+      "type": "item"
+    },
+    "required_mods": ["puffish_attributes"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "puffish_attributes:ranged_resistance",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "à Distância Resistência"
+  },
+  "puffish_attributes:ranged_resistance_shred": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta à distância resistência rasgo."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:shield"
+      },
+      "type": "item"
+    },
+    "required_mods": ["puffish_attributes"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "puffish_attributes:ranged_resistance_shred",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "à Distância Resistência Rasgo"
+  },
+  "puffish_attributes:repair_cost": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta reparo custo."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:paper"
+      },
+      "type": "item"
+    },
+    "required_mods": ["puffish_attributes"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "puffish_attributes:repair_cost",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Reparo Custo"
+  },
+  "puffish_attributes:resistance": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta resistência."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:shield"
+      },
+      "type": "item"
+    },
+    "required_mods": ["puffish_attributes"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "puffish_attributes:resistance",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Resistência"
+  },
+  "puffish_attributes:resistance_shred": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta resistência rasgo."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:shield"
+      },
+      "type": "item"
+    },
+    "required_mods": ["puffish_attributes"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "puffish_attributes:resistance_shred",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Resistência Rasgo"
+  },
+  "puffish_attributes:shovel_speed": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta pá velocidade."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:leather_boots"
+      },
+      "type": "item"
+    },
+    "required_mods": ["puffish_attributes"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "puffish_attributes:shovel_speed",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Pá Velocidade"
+  },
+  "puffish_attributes:sprinting_speed": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta corrida velocidade."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:leather_boots"
+      },
+      "type": "item"
+    },
+    "required_mods": ["puffish_attributes"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "puffish_attributes:sprinting_speed",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Corrida Velocidade"
+  },
+  "puffish_attributes:stamina": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta vigor."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:beef"
+      },
+      "type": "item"
+    },
+    "required_mods": ["puffish_attributes"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "puffish_attributes:stamina",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Vigor"
+  },
+  "puffish_attributes:stealth": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta furtividade."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:paper"
+      },
+      "type": "item"
+    },
+    "required_mods": ["puffish_attributes"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "puffish_attributes:stealth",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Furtividade"
+  },
+  "puffish_attributes:tamed_damage": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta domados dano."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:iron_sword"
+      },
+      "type": "item"
+    },
+    "required_mods": ["puffish_attributes"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "puffish_attributes:tamed_damage",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Domados Dano"
+  },
+  "puffish_attributes:tamed_resistance": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta domados resistência."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:shield"
+      },
+      "type": "item"
+    },
+    "required_mods": ["puffish_attributes"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "puffish_attributes:tamed_resistance",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Domados Resistência"
+  },
+  "puffish_attributes:toughness_shred": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta tenacidade rasgo."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:shield"
+      },
+      "type": "item"
+    },
+    "required_mods": ["puffish_attributes"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "puffish_attributes:toughness_shred",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Tenacidade Rasgo"
+  },
+  "reach-entity-attributes:attack_range": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta ataque alcance."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:iron_sword"
+      },
+      "type": "item"
+    },
+    "required_mods": ["reach-entity-attributes"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "reach-entity-attributes:attack_range",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Ataque Alcance"
+  },
+  "reach-entity-attributes:reach": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta alcance."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:leather_boots"
+      },
+      "type": "item"
+    },
+    "required_mods": ["reach-entity-attributes"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "reach-entity-attributes:reach",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Alcance"
+  },
+  "traveloptics:aqua_magic_resist": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta água mágica resist."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:enchanted_book"
+      },
+      "type": "item"
+    },
+    "required_mods": ["traveloptics"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "traveloptics:aqua_magic_resist",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Água Mágica Resist"
+  },
+  "traveloptics:aqua_spell_power": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta água poder de magia."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:enchanted_book"
+      },
+      "type": "item"
+    },
+    "required_mods": ["traveloptics"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "traveloptics:aqua_spell_power",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Água Poder de Magia"
+  }
+}

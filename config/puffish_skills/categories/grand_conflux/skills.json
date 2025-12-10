@@ -1,0 +1,362 @@
+{
+	"df1v4pni9ompyhpy": {
+		"definition": "puffish.magic_resistance",
+		"x": 0,
+		"y": 0,
+		"root": true
+	},
+	"wl7fcgpps1aa99b6": {
+		"definition": "generic.max_health",
+		"x": -96,
+		"y": 110.85125168440814,
+		"root": false
+	},
+	"sd7iwl6n5xugp2l3": {
+		"definition": "generic.max_health",
+		"x": -144,
+		"y": 193.98969044771428,
+		"root": false
+	},
+	"xa7i11c770ew376x": {
+		"definition": "generic.max_health",
+		"x": -96,
+		"y": 277.1281292110204,
+		"root": false
+	},
+	"e0h0z9kg20hlja49": {
+		"definition": "generic.max_health",
+		"x": 0,
+		"y": 277.1281292110204,
+		"root": false
+	},
+	"ti6xrdr5xybjo6jj": {
+		"definition": "generic.armor",
+		"x": 96,
+		"y": 110.85125168440815,
+		"root": false
+	},
+	"57hbf2b4tljxm24a": {
+		"definition": "generic.armor",
+		"x": 144,
+		"y": 193.98969044771428,
+		"root": false
+	},
+	"ztsx6wghawpl2ece": {
+		"definition": "generic.armor",
+		"x": 96,
+		"y": 277.1281292110204,
+		"root": false
+	},
+	"2ynh1wa3rl0j6vo0": {
+		"definition": "generic.armor",
+		"x": 192,
+		"y": 277.1281292110204,
+		"root": false
+	},
+	"8sgz4sqn7z223zlk": {
+		"definition": "generic.armor",
+		"x": 192,
+		"y": 387.97938089542856,
+		"root": false
+	},
+	"fs8miftgll5y5w5b": {
+		"definition": "generic.armor",
+		"x": 144,
+		"y": 471.1178196587347,
+		"root": false
+	},
+	"kgx88oicz7c3b6gc": {
+		"definition": "generic.armor",
+		"x": 96,
+		"y": 387.9793808954285,
+		"root": false
+	},
+	"mx0u7uqmkkzu1ym6": {
+		"definition": "nature_magic_resist",
+		"x": -192,
+		"y": 277.1281292110204,
+		"root": false
+	},
+	"yl2tlj2vaf5evs01": {
+		"definition": "nature_magic_resist",
+		"x": -240,
+		"y": 360.26656797432645,
+		"root": false
+	},
+	"61kyymn4uyletz7z": {
+		"definition": "nature_magic_resist",
+		"x": -144,
+		"y": 360.2665679743265,
+		"root": false
+	},
+	"emgj67g3011pzbjz": {
+		"definition": "nature_magic_resist",
+		"x": -144,
+		"y": 471.1178196587347,
+		"root": false
+	},
+	"mlm69z5burqwy218": {
+		"definition": "nature_magic_resist",
+		"x": -192,
+		"y": 554.2562584220408,
+		"root": false
+	},
+	"65dl45l3wv4le9hq": {
+		"definition": "nature_magic_resist",
+		"x": -240,
+		"y": 471.1178196587347,
+		"root": false
+	},
+	"5pspfaia6fud6whw": {
+		"definition": "nature_magic_resist",
+		"x": -192,
+		"y": 665.107510106449,
+		"root": false
+	},
+	"s2resel0u9iwp3uh": {
+		"definition": "nature_magic_resist",
+		"x": -288,
+		"y": 720.533135948653,
+		"root": false
+	},
+	"67evc1nweu193z01": {
+		"definition": "nature_magic_resist",
+		"x": -96,
+		"y": 720.533135948653,
+		"root": false
+	},
+	"0bglezwbuee8ofzv": {
+		"definition": "nature_magic_resist",
+		"x": -192,
+		"y": 775.9587617908571,
+		"root": false
+	},
+	"lxfwqmj2z6cpk6xf": {
+		"definition": "spell_resist",
+		"x": -48,
+		"y": 360.2665679743265,
+		"root": false
+	},
+	"sqhrpv87ntjg2mcc": {
+		"definition": "spell_resist",
+		"x": 0,
+		"y": 443.4050067376326,
+		"root": false
+	},
+	"ud5k4wmoqer20t5u": {
+		"definition": "spell_resist",
+		"x": 0,
+		"y": 554.2562584220408,
+		"root": false
+	},
+	"03qi7e0qrggohnku": {
+		"definition": "puffish.magic_resistance",
+		"x": 0,
+		"y": 665.1075101064489,
+		"root": false
+	},
+	"37zxowmg3xcdqv5k": {
+		"definition": "spell_resist",
+		"x": 96,
+		"y": 665.107510106449,
+		"root": false
+	},
+	"vxj5xbenqhnw87ph": {
+		"definition": "spell_resist",
+		"x": 96,
+		"y": 554.2562584220408,
+		"root": false
+	},
+	"s336hjgaz63f7y28": {
+		"definition": "generic.max_health",
+		"x": -240,
+		"y": 138.5640646055102,
+		"root": false
+	},
+	"r8rm5zxsuqvg9lkq": {
+		"definition": "generic.max_health",
+		"x": -336,
+		"y": 249.41531628991834,
+		"root": false
+	},
+	"qqaxu0ydtp6oi70i": {
+		"definition": "generic.max_health",
+		"x": -384,
+		"y": 387.97938089542856,
+		"root": false
+	},
+	"glqmt6m8mloga77y": {
+		"definition": "generic.max_health",
+		"x": -384,
+		"y": 554.2562584220408,
+		"root": false
+	},
+	"t3h3xe0vtnnudd4d": {
+		"definition": "generic.max_health",
+		"x": -384,
+		"y": 665.1075101064489,
+		"root": false
+	},
+	"gb5ijn5mvinqf8bw": {
+		"definition": "generic.max_health",
+		"x": -96,
+		"y": 831.3843876330611,
+		"root": false
+	},
+	"54mimcjke6mkxgyo": {
+		"definition": "generic.max_health",
+		"x": 0,
+		"y": 886.8100134752652,
+		"root": false
+	},
+	"zxxaq2z9zjlz8i0o": {
+		"definition": "generic.max_health",
+		"x": 96,
+		"y": 831.3843876330612,
+		"root": false
+	},
+	"xha0thpfjgjfu9t7": {
+		"definition": "generic.max_health",
+		"x": 192,
+		"y": 775.958761790857,
+		"root": false
+	},
+	"m1etfxa6lqg5orm2": {
+		"definition": "generic.max_health",
+		"x": 288,
+		"y": 720.533135948653,
+		"root": false
+	},
+	"qwp8wkt3i96q7j2e": {
+		"definition": "generic.max_health",
+		"x": 384,
+		"y": 665.1075101064489,
+		"root": false
+	},
+	"t2fp3owste2i313u": {
+		"definition": "generic.max_health",
+		"x": 384,
+		"y": 554.2562584220408,
+		"root": false
+	},
+	"xt9lzdarw5yxsuju": {
+		"definition": "generic.max_health",
+		"x": 384,
+		"y": 387.97938089542856,
+		"root": false
+	},
+	"499p2vn08ydcc1m7": {
+		"definition": "generic.max_health",
+		"x": 336,
+		"y": 249.41531628991837,
+		"root": false
+	},
+	"jllwvg90zjozkgwj": {
+		"definition": "generic.max_health",
+		"x": 240,
+		"y": 138.5640646055102,
+		"root": false
+	},
+	"0ynjhu3bwecjkyrp": {
+		"definition": "puffish.magic_resistance",
+		"x": 240,
+		"y": 581.9690713431428,
+		"root": false
+	},
+	"kcrh0p3yi83zycc4": {
+		"definition": "puffish.magic_resistance",
+		"x": 192,
+		"y": 665.1075101064489,
+		"root": false
+	},
+	"6psnl10rrx7csqbf": {
+		"definition": "puffish.magic_resistance",
+		"x": 288,
+		"y": 498.8306325798367,
+		"root": false
+	},
+	"zo8uyihzhix62xiq": {
+		"definition": "puffish.magic_resistance",
+		"x": 288,
+		"y": 387.97938089542856,
+		"root": false
+	},
+	"rif4hoetmo24fyub": {
+		"definition": "puffish.magic_resistance",
+		"x": 288,
+		"y": 277.1281292110204,
+		"root": false
+	},
+	"cq95okuz5h4y1bcp": {
+		"definition": "puffish.magic_resistance",
+		"x": 0,
+		"y": 775.9587617908571,
+		"root": false
+	},
+	"nyyd46f4gnfd6suk": {
+		"definition": "puffish.magic_resistance",
+		"x": 144,
+		"y": 748.245948869755,
+		"root": false
+	},
+	"e29ih2qzn053dqyb": {
+		"definition": "aqua_spell_power",
+		"x": 96,
+		"y": -110.85125168440814,
+		"root": false
+	},
+	"l2wf6s1gkd1revz0": {
+		"definition": "nature_spell_power",
+		"x": 144,
+		"y": -27.712812921102042,
+		"root": false
+	},
+	"l9lls29ujd6meuyb": {
+		"definition": "lightning_spell_power",
+		"x": 48,
+		"y": -193.98969044771428,
+		"root": false
+	},
+	"bjxso0bunrqonn2l": {
+		"definition": "ice_spell_power",
+		"x": -48,
+		"y": -193.98969044771425,
+		"root": false
+	},
+	"nmi61lx8s6v6hmy6": {
+		"definition": "holy_spell_power",
+		"x": -96,
+		"y": -110.85125168440815,
+		"root": false
+	},
+	"z2ua1yv5dsil1bxy": {
+		"definition": "fire_spell_power",
+		"x": -144,
+		"y": -27.712812921102035,
+		"root": false
+	},
+	"ccmh7vu3ffds5xhf": {
+		"definition": "evocation_spell_power",
+		"x": -192,
+		"y": -110.85125168440815,
+		"root": false
+	},
+	"fnldgt2ufgj2lbek": {
+		"definition": "ender_spell_power",
+		"x": -144,
+		"y": -249.41531628991834,
+		"root": false
+	},
+	"0fp2b4nf4zr7gb1s": {
+		"definition": "eldritch_spell_power",
+		"x": 192,
+		"y": -110.85125168440815,
+		"root": false
+	},
+	"g6ku50dbppvjocga": {
+		"definition": "blood_spell_power",
+		"x": 144,
+		"y": -249.41531628991834,
+		"root": false
+	}
+}
