@@ -1472,7 +1472,7 @@
   "irons_spellbooks:blood_magic_resist": {
     "cost": 1,
     "description": {
-      "text": "Aumenta sangue mágica resist."
+      "text": "5% - Resistência a magia de sangue"
     },
     "frame": {
       "data": {
@@ -1502,7 +1502,7 @@
   "irons_spellbooks:blood_spell_power": {
     "cost": 1,
     "description": {
-      "text": "Aumenta sangue poder de magia."
+      "text": "Aumento de 5% para magia de Sangue"
     },
     "frame": {
       "data": {
@@ -1512,7 +1512,7 @@
     },
     "icon": {
       "data": {
-        "item": "minecraft:enchanted_book"
+        "item": "minecraft:beef"
       },
       "type": "item"
     },
@@ -1523,6 +1523,66 @@
           "attribute": "irons_spellbooks:blood_spell_power",
           "operation": "addition",
           "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Sangue Poder de Magia"
+  },
+  "irons_spellbooks:blood_spell_power_high": {
+    "cost": 1,
+    "description": {
+      "text": "Aumento de 8% para magia de Sangue"
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:porkchop"
+      },
+      "type": "item"
+    },
+    "required_mods": ["irons_spellbooks"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "irons_spellbooks:blood_spell_power",
+          "operation": "addition",
+          "value": 0.08
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Sangue Poder de Magia"
+  },
+  "irons_spellbooks:blood_spell_power_mega": {
+    "cost": 1,
+    "description": {
+      "text": "AAumento de 20% para magia de Sangue"
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:bat_spawn_egg"
+      },
+      "type": "item"
+    },
+    "required_mods": ["irons_spellbooks"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "irons_spellbooks:blood_spell_power",
+          "operation": "addition",
+          "value": 0.2
         },
         "type": "puffish_skills:attribute"
       }
@@ -1592,7 +1652,7 @@
   "irons_spellbooks:eldritch_magic_resist": {
     "cost": 1,
     "description": {
-      "text": "Aumenta profano mágica resist."
+      "text": "5% - Resistência a magia Eldritch"
     },
     "frame": {
       "data": {
@@ -1602,7 +1662,7 @@
     },
     "icon": {
       "data": {
-        "item": "minecraft:enchanted_book"
+        "item": "minecraft:sculk_catalyst"
       },
       "type": "item"
     },
@@ -1622,7 +1682,7 @@
   "irons_spellbooks:eldritch_spell_power": {
     "cost": 1,
     "description": {
-      "text": "Aumenta profano poder de magia."
+      "text": "Aumento de 5% para magia Eldritch"
     },
     "frame": {
       "data": {
@@ -1632,7 +1692,7 @@
     },
     "icon": {
       "data": {
-        "item": "minecraft:enchanted_book"
+        "item": "minecraft:echo_shard"
       },
       "type": "item"
     },
@@ -1649,10 +1709,10 @@
     ],
     "title": "Profano Poder de Magia"
   },
-  "irons_spellbooks:ender_magic_resist": {
+  "irons_spellbooks:eldritch_spell_power_high": {
     "cost": 1,
     "description": {
-      "text": "Aumenta do end mágica resist."
+      "text": "Aumento de 8% para magia de Sangue"
     },
     "frame": {
       "data": {
@@ -1662,7 +1722,67 @@
     },
     "icon": {
       "data": {
-        "item": "minecraft:enchanted_book"
+        "item": "minecraft:sculk_sensor"
+      },
+      "type": "item"
+    },
+    "required_mods": ["irons_spellbooks"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "irons_spellbooks:eldritch_spell_power",
+          "operation": "addition",
+          "value": 0.08
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Profano Poder de Magia"
+  },
+  "irons_spellbooks:eldritch_spell_power_mega": {
+    "cost": 1,
+    "description": {
+      "text": "Aumento de 20% para magia de Sangue"
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:warden_spawn_egg"
+      },
+      "type": "item"
+    },
+    "required_mods": ["irons_spellbooks"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "irons_spellbooks:eldritch_spell_power",
+          "operation": "addition",
+          "value": 0.2
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Profano Poder de Magia"
+  },
+  "irons_spellbooks:ender_magic_resist": {
+    "cost": 1,
+    "description": {
+      "text": "5% - Resistência a magia de Ender"
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:shulker_shell"
       },
       "type": "item"
     },
@@ -1682,7 +1802,7 @@
   "irons_spellbooks:ender_spell_power": {
     "cost": 1,
     "description": {
-      "text": "Aumenta do end poder de magia."
+      "text": "Aumento de 5% para magia de Ender"
     },
     "frame": {
       "data": {
@@ -1692,7 +1812,7 @@
     },
     "icon": {
       "data": {
-        "item": "minecraft:enchanted_book"
+        "item": "minecraft:ender_pearl"
       },
       "type": "item"
     },
@@ -1709,10 +1829,10 @@
     ],
     "title": "do End Poder de Magia"
   },
-  "irons_spellbooks:evocation_magic_resist": {
+  "irons_spellbooks:ender_spell_power_high": {
     "cost": 1,
     "description": {
-      "text": "Aumenta evocação mágica resist."
+      "text": "Aumento de 8% para magia de Ender"
     },
     "frame": {
       "data": {
@@ -1722,7 +1842,67 @@
     },
     "icon": {
       "data": {
-        "item": "minecraft:enchanted_book"
+        "item": "minecraft:ender_eye"
+      },
+      "type": "item"
+    },
+    "required_mods": ["irons_spellbooks"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "irons_spellbooks:ender_spell_power",
+          "operation": "addition",
+          "value": 0.08
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "do End Poder de Magia"
+  },
+  "irons_spellbooks:ender_spell_power_mega": {
+    "cost": 1,
+    "description": {
+      "text": "Aumento de 20% para magia de Ender"
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:dragon_head"
+      },
+      "type": "item"
+    },
+    "required_mods": ["irons_spellbooks"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "irons_spellbooks:ender_spell_power",
+          "operation": "addition",
+          "value": 0.2
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "do End Poder de Magia"
+  },
+  "irons_spellbooks:evocation_magic_resist": {
+    "cost": 1,
+    "description": {
+      "text": "5% - Aumento de resistência a magia de evocação"
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:totem_of_undying"
       },
       "type": "item"
     },
@@ -1742,7 +1922,37 @@
   "irons_spellbooks:evocation_spell_power": {
     "cost": 1,
     "description": {
-      "text": "Aumenta evocação poder de magia."
+      "text": "Aumento de 5% para magia de Evocação"
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:glass_bottle"
+      },
+      "type": "item"
+    },
+    "required_mods": ["irons_spellbooks"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "irons_spellbooks:evocation_spell_power",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Evocação Poder de Magia"
+  },
+  "irons_spellbooks:evocation_spell_power_high": {
+    "cost": 1,
+    "description": {
+      "text": "Aumento de 8% para magia de Evocação"
     },
     "frame": {
       "data": {
@@ -1762,17 +1972,17 @@
         "data": {
           "attribute": "irons_spellbooks:evocation_spell_power",
           "operation": "addition",
-          "value": 0.05
+          "value": 0.08
         },
         "type": "puffish_skills:attribute"
       }
     ],
     "title": "Evocação Poder de Magia"
   },
-  "irons_spellbooks:fire_magic_resist": {
+  "irons_spellbooks:evocation_spell_power_mega": {
     "cost": 1,
     "description": {
-      "text": "Aumenta fogo mágica resist."
+      "text": "Aumento de 20% para magia de Evocação"
     },
     "frame": {
       "data": {
@@ -1782,7 +1992,37 @@
     },
     "icon": {
       "data": {
-        "item": "minecraft:blaze_rod"
+        "item": "minecraft:creeper_spawn_egg"
+      },
+      "type": "item"
+    },
+    "required_mods": ["irons_spellbooks"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "irons_spellbooks:evocation_spell_power",
+          "operation": "addition",
+          "value": 0.2
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Evocação Poder de Magia"
+  },
+  "irons_spellbooks:fire_magic_resist": {
+    "cost": 1,
+    "description": {
+      "text": "5% - Aumento de resistência a magia de Fogo"
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:obsidian"
       },
       "type": "item"
     },
@@ -1802,7 +2042,37 @@
   "irons_spellbooks:fire_spell_power": {
     "cost": 1,
     "description": {
-      "text": "Aumenta fogo poder de magia."
+      "text": "Aumento de 5% para magia de Fogo"
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:blaze_rod"
+      },
+      "type": "item"
+    },
+    "required_mods": ["irons_spellbooks"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "irons_spellbooks:fire_spell_power",
+          "operation": "addition",
+          "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Fogo Poder de Magia"
+  },
+  "irons_spellbooks:fire_spell_power_high": {
+    "cost": 1,
+    "description": {
+      "text": "Aumento de 8% para magia de Fogo"
     },
     "frame": {
       "data": {
@@ -1822,17 +2092,17 @@
         "data": {
           "attribute": "irons_spellbooks:fire_spell_power",
           "operation": "addition",
-          "value": 0.05
+          "value": 0.08
         },
         "type": "puffish_skills:attribute"
       }
     ],
     "title": "Fogo Poder de Magia"
   },
-  "irons_spellbooks:holy_magic_resist": {
+  "irons_spellbooks:fire_spell_power_mega": {
     "cost": 1,
     "description": {
-      "text": "Aumenta sagrado mágica resist."
+      "text": "Aumento de 20% para magia de Fogo"
     },
     "frame": {
       "data": {
@@ -1842,7 +2112,37 @@
     },
     "icon": {
       "data": {
-        "item": "minecraft:enchanted_book"
+        "item": "minecraft:magma_block"
+      },
+      "type": "item"
+    },
+    "required_mods": ["irons_spellbooks"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "irons_spellbooks:fire_spell_power",
+          "operation": "addition",
+          "value": 0.2
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Fogo Poder de Magia"
+  },
+  "irons_spellbooks:holy_magic_resist": {
+    "cost": 1,
+    "description": {
+      "text": "5% - Aumento de resistência a magia Sagrada"
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:gold_ingot"
       },
       "type": "item"
     },
@@ -1862,7 +2162,7 @@
   "irons_spellbooks:holy_spell_power": {
     "cost": 1,
     "description": {
-      "text": "Aumenta sagrado poder de magia."
+      "text": "Aumento de 5% para magia Sagrada"
     },
     "frame": {
       "data": {
@@ -1872,7 +2172,7 @@
     },
     "icon": {
       "data": {
-        "item": "minecraft:enchanted_book"
+        "item": "minecraft:glistering_melon_slice"
       },
       "type": "item"
     },
@@ -1889,10 +2189,10 @@
     ],
     "title": "Sagrado Poder de Magia"
   },
-  "irons_spellbooks:ice_magic_resist": {
+  "irons_spellbooks:holy_spell_power_high": {
     "cost": 1,
     "description": {
-      "text": "Aumenta gelo mágica resist."
+      "text": "Aumento de 8% para magia Sagrada"
     },
     "frame": {
       "data": {
@@ -1902,7 +2202,67 @@
     },
     "icon": {
       "data": {
-        "item": "minecraft:enchanted_book"
+        "item": "minecraft:golden_carrot"
+      },
+      "type": "item"
+    },
+    "required_mods": ["irons_spellbooks"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "irons_spellbooks:holy_spell_power",
+          "operation": "addition",
+          "value": 0.08
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Sagrado Poder de Magia"
+  },
+  "irons_spellbooks:holy_spell_power_mega": {
+    "cost": 1,
+    "description": {
+      "text": "Aumento de 20% para magia Sagrada"
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:enchanted_golden_apple"
+      },
+      "type": "item"
+    },
+    "required_mods": ["irons_spellbooks"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "irons_spellbooks:holy_spell_power",
+          "operation": "addition",
+          "value": 0.2
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Sagrado Poder de Magia"
+  },
+  "irons_spellbooks:ice_magic_resist": {
+    "cost": 1,
+    "description": {
+      "text": "5% - Aumento de resistência a magia de gelo."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:snow_block"
       },
       "type": "item"
     },
@@ -1922,7 +2282,7 @@
   "irons_spellbooks:ice_spell_power": {
     "cost": 1,
     "description": {
-      "text": "Aumenta gelo poder de magia."
+      "text": "Aumento de 5% para magia de Gelo"
     },
     "frame": {
       "data": {
@@ -1932,7 +2292,7 @@
     },
     "icon": {
       "data": {
-        "item": "minecraft:enchanted_book"
+        "item": "minecraft:snowball"
       },
       "type": "item"
     },
@@ -1949,10 +2309,10 @@
     ],
     "title": "Gelo Poder de Magia"
   },
-  "irons_spellbooks:lightning_magic_resist": {
+  "irons_spellbooks:ice_spell_power_high": {
     "cost": 1,
     "description": {
-      "text": "Aumenta relâmpago mágica resist."
+      "text": "Aumento de 8% para magia de Gelo"
     },
     "frame": {
       "data": {
@@ -1962,7 +2322,67 @@
     },
     "icon": {
       "data": {
-        "item": "minecraft:enchanted_book"
+        "item": "minecraft:powder_snow_bucket"
+      },
+      "type": "item"
+    },
+    "required_mods": ["irons_spellbooks"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "irons_spellbooks:ice_spell_power",
+          "operation": "addition",
+          "value": 0.08
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Gelo Poder de Magia"
+  },
+  "irons_spellbooks:ice_spell_power_mega": {
+    "cost": 1,
+    "description": {
+      "text": "Aumento de 20% para magia de Gelo"
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:blue_ice"
+      },
+      "type": "item"
+    },
+    "required_mods": ["irons_spellbooks"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "irons_spellbooks:ice_spell_power",
+          "operation": "addition",
+          "value": 0.2
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Gelo Poder de Magia"
+  },
+  "irons_spellbooks:lightning_magic_resist": {
+    "cost": 1,
+    "description": {
+      "text": "5% - Aumento de resistência a magia de Relampago"
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:raw_copper_block"
       },
       "type": "item"
     },
@@ -1982,7 +2402,7 @@
   "irons_spellbooks:lightning_spell_power": {
     "cost": 1,
     "description": {
-      "text": "Aumenta relâmpago poder de magia."
+      "text": "Aumento de 5% para magia de Relampago"
     },
     "frame": {
       "data": {
@@ -1992,7 +2412,7 @@
     },
     "icon": {
       "data": {
-        "item": "minecraft:enchanted_book"
+        "item": "minecraft:raw_copper"
       },
       "type": "item"
     },
@@ -2009,10 +2429,70 @@
     ],
     "title": "Relâmpago Poder de Magia"
   },
+  "irons_spellbooks:lightning_spell_power_high": {
+    "cost": 1,
+    "description": {
+      "text": "Aumento de 8% para magia de Relampago"
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:copper_ingot"
+      },
+      "type": "item"
+    },
+    "required_mods": ["irons_spellbooks"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "irons_spellbooks:lightning_spell_power",
+          "operation": "addition",
+          "value": 0.08
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Relâmpago Poder de Magia"
+  },
+  "irons_spellbooks:lightning_spell_power_mega": {
+    "cost": 1,
+    "description": {
+      "text": "Aumento de 20% para magia de Relampago"
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:nether_star"
+      },
+      "type": "item"
+    },
+    "required_mods": ["irons_spellbooks"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "irons_spellbooks:lightning_spell_power",
+          "operation": "addition",
+          "value": 0.2
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Relâmpago Poder de Magia"
+  },
   "irons_spellbooks:mana_regen": {
     "cost": 1,
     "description": {
-      "text": "Aumenta mana regeneração."
+      "text": "Aumenta a regeneração de mana."
     },
     "frame": {
       "data": {
@@ -2072,7 +2552,7 @@
   "irons_spellbooks:nature_magic_resist": {
     "cost": 1,
     "description": {
-      "text": "Aumenta natureza mágica resist."
+      "text": "5% - Aumento de resistência a magia de Natureza"
     },
     "frame": {
       "data": {
@@ -2082,7 +2562,7 @@
     },
     "icon": {
       "data": {
-        "item": "minecraft:enchanted_book"
+        "item": "minecraft:oak_log"
       },
       "type": "item"
     },
@@ -2102,7 +2582,7 @@
   "irons_spellbooks:nature_spell_power": {
     "cost": 1,
     "description": {
-      "text": "Aumenta natureza poder de magia."
+      "text": "Aumento de 5% para magia de Natureza"
     },
     "frame": {
       "data": {
@@ -2112,7 +2592,7 @@
     },
     "icon": {
       "data": {
-        "item": "minecraft:enchanted_book"
+        "item": "minecraft:wheat_seeds"
       },
       "type": "item"
     },
@@ -2129,10 +2609,10 @@
     ],
     "title": "Natureza Poder de Magia"
   },
-  "irons_spellbooks:spell_power": {
+  "irons_spellbooks:nature_spell_power_high": {
     "cost": 1,
     "description": {
-      "text": "Aumenta poder de magia."
+      "text": "Aumento de 8% para magia de Natureza"
     },
     "frame": {
       "data": {
@@ -2142,7 +2622,67 @@
     },
     "icon": {
       "data": {
-        "item": "minecraft:enchanted_book"
+        "item": "minecraft:oak_leaves"
+      },
+      "type": "item"
+    },
+    "required_mods": ["irons_spellbooks"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "irons_spellbooks:nature_spell_power",
+          "operation": "addition",
+          "value": 0.08
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Natureza Poder de Magia"
+  },
+  "irons_spellbooks:nature_spell_power_mega": {
+    "cost": 1,
+    "description": {
+      "text": "Aumento de 20% para magia de Natureza."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:oak_sapling"
+      },
+      "type": "item"
+    },
+    "required_mods": ["irons_spellbooks"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "irons_spellbooks:nature_spell_power",
+          "operation": "addition",
+          "value": 0.2
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Natureza Poder de Magia"
+  },
+  "irons_spellbooks:spell_power": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta 5% de todas as magias."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:book"
       },
       "type": "item"
     },
@@ -2153,6 +2693,36 @@
           "attribute": "irons_spellbooks:spell_power",
           "operation": "addition",
           "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Poder de Magia"
+  },
+  "irons_spellbooks:spell_power_high": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta 10% de todas as magias."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:lectern"
+      },
+      "type": "item"
+    },
+    "required_mods": ["irons_spellbooks"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "irons_spellbooks:spell_power",
+          "operation": "addition",
+          "value": 0.1
         },
         "type": "puffish_skills:attribute"
       }
@@ -2192,7 +2762,7 @@
   "irons_spellbooks:summon_damage": {
     "cost": 1,
     "description": {
-      "text": "Aumenta invocação dano."
+      "text": "Aumenta 5% o poder de invocação"
     },
     "frame": {
       "data": {
@@ -3572,7 +4142,7 @@
   "traveloptics:aqua_magic_resist": {
     "cost": 1,
     "description": {
-      "text": "Aumenta água mágica resist."
+      "text": "5% - Aumento de resistência a magia de Água"
     },
     "frame": {
       "data": {
@@ -3582,7 +4152,7 @@
     },
     "icon": {
       "data": {
-        "item": "minecraft:bucket"
+        "item": "minecraft:sponge"
       },
       "type": "item"
     },
@@ -3602,7 +4172,7 @@
   "traveloptics:aqua_spell_power": {
     "cost": 1,
     "description": {
-      "text": "Aumenta água poder de magia."
+      "text": "Aumento de 5% para magia de Água."
     },
     "frame": {
       "data": {
@@ -3623,6 +4193,66 @@
           "attribute": "traveloptics:aqua_spell_power",
           "operation": "addition",
           "value": 0.05
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Água Poder de Magia"
+  },
+  "traveloptics:aqua_spell_power_high": {
+    "cost": 1,
+    "description": {
+      "text": "AAumento de 8% para magia de Água."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:trident"
+      },
+      "type": "item"
+    },
+    "required_mods": ["traveloptics"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "traveloptics:aqua_spell_power",
+          "operation": "addition",
+          "value": 0.08
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Água Poder de Magia"
+  },
+  "traveloptics:aqua_spell_power_mega": {
+    "cost": 1,
+    "description": {
+      "text": "Aumento de 20% para magia de Água."
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:heart_of_the_sea"
+      },
+      "type": "item"
+    },
+    "required_mods": ["traveloptics"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "traveloptics:aqua_spell_power",
+          "operation": "addition",
+          "value": 0.2
         },
         "type": "puffish_skills:attribute"
       }
