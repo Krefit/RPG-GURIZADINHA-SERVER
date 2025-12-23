@@ -1,5 +1,5 @@
 {
-  "additionalentityattributes:bonus_loot_count_rolls": {
+  "bonus_loot_count_rolls": {
     "cost": 1,
     "description": {
       "text": "Aumenta bônus saques quantidade rolagens."
@@ -29,7 +29,7 @@
     ],
     "title": "Bônus Saques Quantidade Rolagens"
   },
-  "additionalentityattributes:bonus_rare_loot_rolls": {
+  "bonus_rare_loot_rolls": {
     "cost": 1,
     "description": {
       "text": "Aumenta bônus raros saques rolagens."
@@ -59,7 +59,7 @@
     ],
     "title": "Bônus Raros Saques Rolagens"
   },
-  "additionalentityattributes:critical_bonus_damage": {
+  "critical_bonus_damage": {
     "cost": 1,
     "description": {
       "text": "Aumenta crítico bônus dano."
@@ -89,7 +89,7 @@
     ],
     "title": "Crítico Bônus Dano"
   },
-  "additionalentityattributes:dig_speed": {
+  "dig_speed": {
     "cost": 1,
     "description": {
       "text": "Aumenta escavação velocidade."
@@ -119,7 +119,7 @@
     ],
     "title": "Escavação Velocidade"
   },
-  "additionalentityattributes:dropped_experience": {
+  "dropped_experience": {
     "cost": 1,
     "description": {
       "text": "Aumenta dropado experiência."
@@ -149,7 +149,7 @@
     ],
     "title": "Dropado Experiência"
   },
-  "additionalentityattributes:lava_speed": {
+  "lava_speed": {
     "cost": 1,
     "description": {
       "text": "Aumenta lava velocidade."
@@ -179,7 +179,7 @@
     ],
     "title": "Lava Velocidade"
   },
-  "additionalentityattributes:lava_visibility": {
+  "lava_visibility": {
     "cost": 1,
     "description": {
       "text": "Aumenta lava visibilidade."
@@ -209,7 +209,7 @@
     ],
     "title": "Lava Visibilidade"
   },
-  "additionalentityattributes:lung_capacity": {
+  "lung_capacity": {
     "cost": 1,
     "description": {
       "text": "Aumenta pulmão capacidade."
@@ -239,7 +239,7 @@
     ],
     "title": "Pulmão Capacidade"
   },
-  "additionalentityattributes:magic_protection": {
+  "magic_protection": {
     "cost": 1,
     "description": {
       "text": "Aumenta mágica proteção."
@@ -269,7 +269,7 @@
     ],
     "title": "Mágica Proteção"
   },
-  "additionalentityattributes:water_speed": {
+  "water_speed": {
     "cost": 1,
     "description": {
       "text": "Aumenta água velocidade."
@@ -299,7 +299,7 @@
     ],
     "title": "Água Velocidade"
   },
-  "additionalentityattributes:water_visibility": {
+  "water_visibility": {
     "cost": 1,
     "description": {
       "text": "Aumenta água visibilidade."
@@ -329,7 +329,7 @@
     ],
     "title": "Água Visibilidade"
   },
-  "attributeslib:armor_pierce": {
+  "armor_pierce": {
     "cost": 1,
     "description": {
       "text": "Aumenta armadura perfuração."
@@ -359,7 +359,7 @@
     ],
     "title": "Armadura Perfuração"
   },
-  "attributeslib:armor_shred": {
+  "atr_armor_shred": {
     "cost": 1,
     "description": {
       "text": "Aumenta armadura rasgo."
@@ -389,10 +389,10 @@
     ],
     "title": "Armadura Rasgo"
   },
-  "attributeslib:arrow_damage": {
+  "arrow_damage": {
     "cost": 1,
     "description": {
-      "text": "Aumenta flecha dano."
+      "text": "Aumento de 5% para dano da Flecha"
     },
     "frame": {
       "data": {
@@ -402,7 +402,7 @@
     },
     "icon": {
       "data": {
-        "item": "minecraft:iron_sword"
+        "item": "minecraft:arrow"
       },
       "type": "item"
     },
@@ -417,12 +417,12 @@
         "type": "puffish_skills:attribute"
       }
     ],
-    "title": "Flecha Dano"
+    "title": "Dano para Flecha"
   },
-  "attributeslib:arrow_velocity": {
+  "arrow_velocity": {
     "cost": 1,
     "description": {
-      "text": "Aumenta flecha velocidade."
+      "text": "Aumento de 5% para a velocidade da Flecha"
     },
     "frame": {
       "data": {
@@ -432,7 +432,7 @@
     },
     "icon": {
       "data": {
-        "item": "minecraft:paper"
+        "item": "minecraft:feather"
       },
       "type": "item"
     },
@@ -449,7 +449,85 @@
     ],
     "title": "Flecha Velocidade"
   },
-  "attributeslib:cold_damage": {
+  "ranged_full_status": {
+    "cost": 1,
+    "description": {
+      "text": "Aumenta 20% de todos os Status de Ranged"
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:spectral_arrow"
+      },
+      "type": "item"
+    },
+    "required_mods": ["attributeslib"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "attributeslib:arrow_damage",
+          "operation": "addition",
+          "value": 0.2
+        },
+        "type": "puffish_skills:attribute"
+      },
+      {
+        "data": {
+          "attribute": "attributeslib:crit_chance",
+          "operation": "addition",
+          "value": 0.2
+        },
+        "type": "puffish_skills:attribute"
+      },
+      {
+        "data": {
+          "attribute": "attributeslib:crit_damage",
+          "operation": "addition",
+          "value": 0.2
+        },
+        "type": "puffish_skills:attribute"
+      },
+      {
+        "data": {
+          "attribute": "attributeslib:draw_speed",
+          "operation": "addition",
+          "value": 0.2
+        },
+        "type": "puffish_skills:attribute"
+      },
+      {
+        "data": {
+          "attribute": "attributeslib:arrow_velocity",
+          "operation": "addition",
+          "value": 0.2
+        },
+        "type": "puffish_skills:attribute"
+      },
+      {
+        "data": {
+          "attribute": "puffish_attributes:stamina",
+          "operation": "addition",
+          "value": 0.2
+        },
+        "type": "puffish_skills:attribute"
+      },
+      {
+        "data": {
+          "attribute": "puffish_attributes:stamina",
+          "operation": "addition",
+          "value": 0.2
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Full Ranged Status"
+  },
+  "cold_damage": {
     "cost": 1,
     "description": {
       "text": "Aumenta gélido dano."
@@ -479,7 +557,7 @@
     ],
     "title": "Gélido Dano"
   },
-  "attributeslib:creative_flight": {
+  "creative_flight": {
     "cost": 1,
     "description": {
       "text": "Aumenta criativo voo."
@@ -509,10 +587,10 @@
     ],
     "title": "Criativo Voo"
   },
-  "attributeslib:crit_chance": {
+  "crit_chance": {
     "cost": 1,
     "description": {
-      "text": "Aumenta crítico chance."
+      "text": "Aumento de 5% para chance de Crítico"
     },
     "frame": {
       "data": {
@@ -522,7 +600,7 @@
     },
     "icon": {
       "data": {
-        "item": "minecraft:paper"
+        "item": "minecraft:redstone"
       },
       "type": "item"
     },
@@ -537,12 +615,12 @@
         "type": "puffish_skills:attribute"
       }
     ],
-    "title": "Crítico Chance"
+    "title": "Chance de Crítico"
   },
-  "attributeslib:crit_damage": {
+  "crit_damage": {
     "cost": 1,
     "description": {
-      "text": "Aumenta crítico dano."
+      "text": "Aumento de 5% para Dano Crítico"
     },
     "frame": {
       "data": {
@@ -552,7 +630,7 @@
     },
     "icon": {
       "data": {
-        "item": "minecraft:iron_sword"
+        "item": "minecraft:iron_axe"
       },
       "type": "item"
     },
@@ -567,9 +645,47 @@
         "type": "puffish_skills:attribute"
       }
     ],
-    "title": "Crítico Dano"
+    "title": "Dano para Crítico"
   },
-  "attributeslib:current_hp_damage": {
+  "crit_damage_chance": {
+    "cost": 1,
+    "description": {
+      "text": "Aumento de 10% para Chance de Crítico e 30% para Dano Crítico"
+    },
+    "frame": {
+      "data": {
+        "frame": "task"
+      },
+      "type": "advancement"
+    },
+    "icon": {
+      "data": {
+        "item": "minecraft:fire_charge"
+      },
+      "type": "item"
+    },
+    "required_mods": ["attributeslib"],
+    "rewards": [
+      {
+        "data": {
+          "attribute": "attributeslib:crit_chance",
+          "operation": "addition",
+          "value": 0.1
+        },
+        "type": "puffish_skills:attribute"
+      },
+      {
+        "data": {
+          "attribute": "attributeslib:crit_damage",
+          "operation": "addition",
+          "value": 0.3
+        },
+        "type": "puffish_skills:attribute"
+      }
+    ],
+    "title": "Chance de Crítico"
+  },
+  "current_hp_damage": {
     "cost": 1,
     "description": {
       "text": "Aumenta atual vida dano."
@@ -599,10 +715,10 @@
     ],
     "title": "Atual Vida Dano"
   },
-  "attributeslib:dodge_chance": {
+  "dodge_chance": {
     "cost": 1,
     "description": {
-      "text": "Aumenta esquiva chance."
+      "text": "Aumento de 5% para Chance de Esquiva"
     },
     "frame": {
       "data": {
@@ -612,7 +728,7 @@
     },
     "icon": {
       "data": {
-        "item": "minecraft:paper"
+        "item": "minecraft:leather_boots"
       },
       "type": "item"
     },
@@ -627,9 +743,9 @@
         "type": "puffish_skills:attribute"
       }
     ],
-    "title": "Esquiva Chance"
+    "title": "Aumentar Chance de Esquiva"
   },
-  "attributeslib:draw_speed": {
+  "draw_speed": {
     "cost": 1,
     "description": {
       "text": "Aumenta sacar velocidade."
@@ -659,7 +775,7 @@
     ],
     "title": "Sacar Velocidade"
   },
-  "attributeslib:elytra_flight": {
+  "elytra_flight": {
     "cost": 1,
     "description": {
       "text": "Aumenta élitros voo."
@@ -689,7 +805,7 @@
     ],
     "title": "Élitros Voo"
   },
-  "attributeslib:experience_gained": {
+  "experience_gained": {
     "cost": 1,
     "description": {
       "text": "Aumenta experiência ganha."
@@ -719,7 +835,7 @@
     ],
     "title": "Experiência Ganha"
   },
-  "attributeslib:fire_damage": {
+  "fire_damage": {
     "cost": 1,
     "description": {
       "text": "Aumenta fogo dano."
@@ -749,7 +865,7 @@
     ],
     "title": "Fogo Dano"
   },
-  "attributeslib:ghost_health": {
+  "ghost_health": {
     "cost": 1,
     "description": {
       "text": "Aumenta fantasma vida."
@@ -779,7 +895,7 @@
     ],
     "title": "Fantasma Vida"
   },
-  "attributeslib:healing_received": {
+  "healing_received": {
     "cost": 1,
     "description": {
       "text": "Aumenta cura recebida."
@@ -809,7 +925,7 @@
     ],
     "title": "Cura Recebida"
   },
-  "attributeslib:life_steal": {
+  "atr_life_steal": {
     "cost": 1,
     "description": {
       "text": "Aumenta vida dreno."
@@ -839,7 +955,7 @@
     ],
     "title": "Vida Dreno"
   },
-  "attributeslib:mining_speed": {
+  "atr_mining_speed": {
     "cost": 1,
     "description": {
       "text": "Aumenta mineração velocidade."
@@ -869,7 +985,7 @@
     ],
     "title": "Mineração Velocidade"
   },
-  "attributeslib:overheal": {
+  "overheal": {
     "cost": 1,
     "description": {
       "text": "Aumenta cura extra."
@@ -899,7 +1015,7 @@
     ],
     "title": "Cura Extra"
   },
-  "attributeslib:prot_pierce": {
+  "prot_pierce": {
     "cost": 1,
     "description": {
       "text": "Aumenta proteção perfuração."
@@ -929,7 +1045,7 @@
     ],
     "title": "Proteção Perfuração"
   },
-  "attributeslib:prot_shred": {
+  "prot_shred": {
     "cost": 1,
     "description": {
       "text": "Aumenta proteção rasgo."
@@ -959,7 +1075,7 @@
     ],
     "title": "Proteção Rasgo"
   },
-  "caelus:fall_flying": {
+  "fall_flying": {
     "cost": 1,
     "description": {
       "text": "Aumenta queda voo."
@@ -989,7 +1105,7 @@
     ],
     "title": "Queda Voo"
   },
-  "epicfight:armor_negation": {
+  "armor_negation": {
     "cost": 1,
     "description": {
       "text": "Aumenta armadura negation."
@@ -1019,7 +1135,7 @@
     ],
     "title": "Armadura Negation"
   },
-  "epicfight:impact": {
+  "impact": {
     "cost": 1,
     "description": {
       "text": "Aumenta impacto."
@@ -1049,7 +1165,7 @@
     ],
     "title": "Impacto"
   },
-  "epicfight:max_strikes": {
+  "max_strikes": {
     "cost": 1,
     "description": {
       "text": "Aumenta máximo golpes."
@@ -1079,7 +1195,7 @@
     ],
     "title": "Máximo Golpes"
   },
-  "epicfight:offhand_armor_negation": {
+  "offhand_armor_negation": {
     "cost": 1,
     "description": {
       "text": "Aumenta mão secundária armadura negation."
@@ -1109,7 +1225,7 @@
     ],
     "title": "Mão Secundária Armadura Negation"
   },
-  "epicfight:offhand_attack_speed": {
+  "offhand_attack_speed": {
     "cost": 1,
     "description": {
       "text": "Aumenta mão secundária ataque velocidade."
@@ -1139,7 +1255,7 @@
     ],
     "title": "Mão Secundária Ataque Velocidade"
   },
-  "epicfight:offhand_impact": {
+  "offhand_impact": {
     "cost": 1,
     "description": {
       "text": "Aumenta mão secundária impacto."
@@ -1169,7 +1285,7 @@
     ],
     "title": "Mão Secundária Impacto"
   },
-  "epicfight:offhand_max_strikes": {
+  "offhand_max_strikes": {
     "cost": 1,
     "description": {
       "text": "Aumenta mão secundária máximo golpes."
@@ -1199,7 +1315,7 @@
     ],
     "title": "Mão Secundária Máximo Golpes"
   },
-  "epicfight:stamina_regen": {
+  "stamina_regen": {
     "cost": 1,
     "description": {
       "text": "Aumenta vigor regeneração."
@@ -1229,7 +1345,7 @@
     ],
     "title": "Vigor Regeneração"
   },
-  "epicfight:stun_armor": {
+  "stun_armor": {
     "cost": 1,
     "description": {
       "text": "Aumenta atordoamento armadura."
@@ -1259,7 +1375,7 @@
     ],
     "title": "Atordoamento Armadura"
   },
-  "epicfight:weight": {
+  "weight": {
     "cost": 1,
     "description": {
       "text": "Aumenta peso."
@@ -1289,7 +1405,7 @@
     ],
     "title": "Peso"
   },
-  "forge:block_reach": {
+  "block_reach": {
     "cost": 1,
     "description": {
       "text": "Aumenta bloco alcance."
@@ -1319,7 +1435,7 @@
     ],
     "title": "Bloco Alcance"
   },
-  "forge:entity_gravity": {
+  "entity_gravity": {
     "cost": 1,
     "description": {
       "text": "Aumenta entidade gravidade."
@@ -1349,7 +1465,7 @@
     ],
     "title": "Entidade Gravidade"
   },
-  "forge:entity_reach": {
+  "entity_reach": {
     "cost": 1,
     "description": {
       "text": "Aumenta entidade alcance."
@@ -1379,7 +1495,7 @@
     ],
     "title": "Entidade Alcance"
   },
-  "forge:nametag_distance": {
+  "nametag_distance": {
     "cost": 1,
     "description": {
       "text": "Aumenta nome visível distância."
@@ -1409,7 +1525,7 @@
     ],
     "title": "Nome Visível Distância"
   },
-  "forge:step_height_addition": {
+  "step_height_addition": {
     "cost": 1,
     "description": {
       "text": "Aumenta step height addition."
@@ -1439,7 +1555,7 @@
     ],
     "title": "Step Height Addition"
   },
-  "forge:swim_speed": {
+  "swim_speed": {
     "cost": 1,
     "description": {
       "text": "Aumenta nado velocidade."
@@ -1469,7 +1585,7 @@
     ],
     "title": "Nado Velocidade"
   },
-  "irons_spellbooks:blood_magic_resist": {
+  "blood_magic_resist": {
     "cost": 1,
     "description": {
       "text": "5% - Resistência a magia de sangue"
@@ -1497,9 +1613,9 @@
         "type": "puffish_skills:attribute"
       }
     ],
-    "title": "Sangue Mágica Resist"
+    "title": "Resistência a magia de sangue"
   },
-  "irons_spellbooks:blood_spell_power": {
+  "blood_spell_power": {
     "cost": 1,
     "description": {
       "text": "Aumento de 5% para magia de Sangue"
@@ -1527,9 +1643,9 @@
         "type": "puffish_skills:attribute"
       }
     ],
-    "title": "Sangue Poder de Magia"
+    "title": "Potencializar magia de sangue"
   },
-  "irons_spellbooks:blood_spell_power_high": {
+  "blood_spell_power_high": {
     "cost": 1,
     "description": {
       "text": "Aumento de 8% para magia de Sangue"
@@ -1557,12 +1673,12 @@
         "type": "puffish_skills:attribute"
       }
     ],
-    "title": "Sangue Poder de Magia"
+    "title": "Potencializar magia de sangue"
   },
-  "irons_spellbooks:blood_spell_power_mega": {
+  "blood_spell_power_mega": {
     "cost": 1,
     "description": {
-      "text": "AAumento de 20% para magia de Sangue"
+      "text": "AAumento de 100% para magia de Sangue"
     },
     "frame": {
       "data": {
@@ -1582,14 +1698,14 @@
         "data": {
           "attribute": "irons_spellbooks:blood_spell_power",
           "operation": "addition",
-          "value": 0.2
+          "value": 1
         },
         "type": "puffish_skills:attribute"
       }
     ],
-    "title": "Sangue Poder de Magia"
+    "title": "Potencializar magia de sangue"
   },
-  "irons_spellbooks:cast_time_reduction": {
+  "cast_time_reduction": {
     "cost": 1,
     "description": {
       "text": "Aumenta conjuração tempo redução."
@@ -1619,7 +1735,7 @@
     ],
     "title": "Conjuração Tempo Redução"
   },
-  "irons_spellbooks:cooldown_reduction": {
+  "cooldown_reduction": {
     "cost": 1,
     "description": {
       "text": "Aumenta recarga redução."
@@ -1649,7 +1765,7 @@
     ],
     "title": "Recarga Redução"
   },
-  "irons_spellbooks:eldritch_magic_resist": {
+  "eldritch_magic_resist": {
     "cost": 1,
     "description": {
       "text": "5% - Resistência a magia Eldritch"
@@ -1677,9 +1793,9 @@
         "type": "puffish_skills:attribute"
       }
     ],
-    "title": "Profano Mágica Resist"
+    "title": "Resistencia contra magia Eldritch"
   },
-  "irons_spellbooks:eldritch_spell_power": {
+  "eldritch_spell_power": {
     "cost": 1,
     "description": {
       "text": "Aumento de 5% para magia Eldritch"
@@ -1707,9 +1823,9 @@
         "type": "puffish_skills:attribute"
       }
     ],
-    "title": "Profano Poder de Magia"
+    "title": "Potencializar magia Eldritch"
   },
-  "irons_spellbooks:eldritch_spell_power_high": {
+  "eldritch_spell_power_high": {
     "cost": 1,
     "description": {
       "text": "Aumento de 8% para magia de Sangue"
@@ -1737,12 +1853,12 @@
         "type": "puffish_skills:attribute"
       }
     ],
-    "title": "Profano Poder de Magia"
+    "title": "Potencializar magia Eldritch"
   },
-  "irons_spellbooks:eldritch_spell_power_mega": {
+  "eldritch_spell_power_mega": {
     "cost": 1,
     "description": {
-      "text": "Aumento de 20% para magia de Sangue"
+      "text": "Aumento de 100% para magia de Sangue"
     },
     "frame": {
       "data": {
@@ -1762,14 +1878,14 @@
         "data": {
           "attribute": "irons_spellbooks:eldritch_spell_power",
           "operation": "addition",
-          "value": 0.2
+          "value": 1
         },
         "type": "puffish_skills:attribute"
       }
     ],
-    "title": "Profano Poder de Magia"
+    "title": "Potencializar magia Eldritch"
   },
-  "irons_spellbooks:ender_magic_resist": {
+  "ender_magic_resist": {
     "cost": 1,
     "description": {
       "text": "5% - Resistência a magia de Ender"
@@ -1797,9 +1913,9 @@
         "type": "puffish_skills:attribute"
       }
     ],
-    "title": "do End Mágica Resist"
+    "title": "Resistencia para magia Ender"
   },
-  "irons_spellbooks:ender_spell_power": {
+  "ender_spell_power": {
     "cost": 1,
     "description": {
       "text": "Aumento de 5% para magia de Ender"
@@ -1827,9 +1943,9 @@
         "type": "puffish_skills:attribute"
       }
     ],
-    "title": "do End Poder de Magia"
+    "title": "Potencializar magia de Ender"
   },
-  "irons_spellbooks:ender_spell_power_high": {
+  "ender_spell_power_high": {
     "cost": 1,
     "description": {
       "text": "Aumento de 8% para magia de Ender"
@@ -1857,12 +1973,12 @@
         "type": "puffish_skills:attribute"
       }
     ],
-    "title": "do End Poder de Magia"
+    "title": "Potencializar magia de Ender"
   },
-  "irons_spellbooks:ender_spell_power_mega": {
+  "ender_spell_power_mega": {
     "cost": 1,
     "description": {
-      "text": "Aumento de 20% para magia de Ender"
+      "text": "Aumento de 100% para magia de Ender"
     },
     "frame": {
       "data": {
@@ -1882,14 +1998,14 @@
         "data": {
           "attribute": "irons_spellbooks:ender_spell_power",
           "operation": "addition",
-          "value": 0.2
+          "value": 1
         },
         "type": "puffish_skills:attribute"
       }
     ],
-    "title": "do End Poder de Magia"
+    "title": "Potencializar magia de Ender"
   },
-  "irons_spellbooks:evocation_magic_resist": {
+  "evocation_magic_resist": {
     "cost": 1,
     "description": {
       "text": "5% - Aumento de resistência a magia de evocação"
@@ -1917,9 +2033,9 @@
         "type": "puffish_skills:attribute"
       }
     ],
-    "title": "Evocação Mágica Resist"
+    "title": "Resistencia contra magia de Evocação"
   },
-  "irons_spellbooks:evocation_spell_power": {
+  "evocation_spell_power": {
     "cost": 1,
     "description": {
       "text": "Aumento de 5% para magia de Evocação"
@@ -1947,9 +2063,9 @@
         "type": "puffish_skills:attribute"
       }
     ],
-    "title": "Evocação Poder de Magia"
+    "title": "Potencializar magia de Evocação"
   },
-  "irons_spellbooks:evocation_spell_power_high": {
+  "evocation_spell_power_high": {
     "cost": 1,
     "description": {
       "text": "Aumento de 8% para magia de Evocação"
@@ -1977,12 +2093,12 @@
         "type": "puffish_skills:attribute"
       }
     ],
-    "title": "Evocação Poder de Magia"
+    "title": "Potencializar magia de Evocação"
   },
-  "irons_spellbooks:evocation_spell_power_mega": {
+  "evocation_spell_power_mega": {
     "cost": 1,
     "description": {
-      "text": "Aumento de 20% para magia de Evocação"
+      "text": "Aumento de 100% para magia de Evocação"
     },
     "frame": {
       "data": {
@@ -2002,14 +2118,14 @@
         "data": {
           "attribute": "irons_spellbooks:evocation_spell_power",
           "operation": "addition",
-          "value": 0.2
+          "value": 1
         },
         "type": "puffish_skills:attribute"
       }
     ],
-    "title": "Evocação Poder de Magia"
+    "title": "Potencializar magia de Evocação"
   },
-  "irons_spellbooks:fire_magic_resist": {
+  "fire_magic_resist": {
     "cost": 1,
     "description": {
       "text": "5% - Aumento de resistência a magia de Fogo"
@@ -2037,9 +2153,9 @@
         "type": "puffish_skills:attribute"
       }
     ],
-    "title": "Fogo Mágica Resist"
+    "title": "Resistencia contra magia de Fogo"
   },
-  "irons_spellbooks:fire_spell_power": {
+  "fire_spell_power": {
     "cost": 1,
     "description": {
       "text": "Aumento de 5% para magia de Fogo"
@@ -2067,9 +2183,9 @@
         "type": "puffish_skills:attribute"
       }
     ],
-    "title": "Fogo Poder de Magia"
+    "title": "Potencializar magia de Fogo"
   },
-  "irons_spellbooks:fire_spell_power_high": {
+  "fire_spell_power_high": {
     "cost": 1,
     "description": {
       "text": "Aumento de 8% para magia de Fogo"
@@ -2097,12 +2213,12 @@
         "type": "puffish_skills:attribute"
       }
     ],
-    "title": "Fogo Poder de Magia"
+    "title": "Potencializar magia de Fogo"
   },
-  "irons_spellbooks:fire_spell_power_mega": {
+  "fire_spell_power_mega": {
     "cost": 1,
     "description": {
-      "text": "Aumento de 20% para magia de Fogo"
+      "text": "Aumento de 100% para magia de Fogo"
     },
     "frame": {
       "data": {
@@ -2122,14 +2238,14 @@
         "data": {
           "attribute": "irons_spellbooks:fire_spell_power",
           "operation": "addition",
-          "value": 0.2
+          "value": 1
         },
         "type": "puffish_skills:attribute"
       }
     ],
-    "title": "Fogo Poder de Magia"
+    "title": "Potencializar magia de Fogo"
   },
-  "irons_spellbooks:holy_magic_resist": {
+  "holy_magic_resist": {
     "cost": 1,
     "description": {
       "text": "5% - Aumento de resistência a magia Sagrada"
@@ -2157,9 +2273,9 @@
         "type": "puffish_skills:attribute"
       }
     ],
-    "title": "Sagrado Mágica Resist"
+    "title": "Resistencia contra magia Sagrada"
   },
-  "irons_spellbooks:holy_spell_power": {
+  "holy_spell_power": {
     "cost": 1,
     "description": {
       "text": "Aumento de 5% para magia Sagrada"
@@ -2187,9 +2303,9 @@
         "type": "puffish_skills:attribute"
       }
     ],
-    "title": "Sagrado Poder de Magia"
+    "title": "Potencializar magia Sagrada"
   },
-  "irons_spellbooks:holy_spell_power_high": {
+  "holy_spell_power_high": {
     "cost": 1,
     "description": {
       "text": "Aumento de 8% para magia Sagrada"
@@ -2217,12 +2333,12 @@
         "type": "puffish_skills:attribute"
       }
     ],
-    "title": "Sagrado Poder de Magia"
+    "title": "Potencializar magia Sagrada"
   },
-  "irons_spellbooks:holy_spell_power_mega": {
+  "holy_spell_power_mega": {
     "cost": 1,
     "description": {
-      "text": "Aumento de 20% para magia Sagrada"
+      "text": "Aumento de 100% para magia Sagrada"
     },
     "frame": {
       "data": {
@@ -2242,14 +2358,14 @@
         "data": {
           "attribute": "irons_spellbooks:holy_spell_power",
           "operation": "addition",
-          "value": 0.2
+          "value": 1
         },
         "type": "puffish_skills:attribute"
       }
     ],
-    "title": "Sagrado Poder de Magia"
+    "title": "Potencializar magia Sagrada"
   },
-  "irons_spellbooks:ice_magic_resist": {
+  "ice_magic_resist": {
     "cost": 1,
     "description": {
       "text": "5% - Aumento de resistência a magia de gelo."
@@ -2277,9 +2393,9 @@
         "type": "puffish_skills:attribute"
       }
     ],
-    "title": "Gelo Mágica Resist"
+    "title": "Resistencia contra magia de Gelo"
   },
-  "irons_spellbooks:ice_spell_power": {
+  "ice_spell_power": {
     "cost": 1,
     "description": {
       "text": "Aumento de 5% para magia de Gelo"
@@ -2307,9 +2423,9 @@
         "type": "puffish_skills:attribute"
       }
     ],
-    "title": "Gelo Poder de Magia"
+    "title": "Potencializar magia de Gelo"
   },
-  "irons_spellbooks:ice_spell_power_high": {
+  "ice_spell_power_high": {
     "cost": 1,
     "description": {
       "text": "Aumento de 8% para magia de Gelo"
@@ -2337,12 +2453,12 @@
         "type": "puffish_skills:attribute"
       }
     ],
-    "title": "Gelo Poder de Magia"
+    "title": "Potencializar magia de Gelo"
   },
-  "irons_spellbooks:ice_spell_power_mega": {
+  "ice_spell_power_mega": {
     "cost": 1,
     "description": {
-      "text": "Aumento de 20% para magia de Gelo"
+      "text": "Aumento de 100% para magia de Gelo"
     },
     "frame": {
       "data": {
@@ -2362,14 +2478,14 @@
         "data": {
           "attribute": "irons_spellbooks:ice_spell_power",
           "operation": "addition",
-          "value": 0.2
+          "value": 1
         },
         "type": "puffish_skills:attribute"
       }
     ],
-    "title": "Gelo Poder de Magia"
+    "title": "Potencializar magia de Gelo"
   },
-  "irons_spellbooks:lightning_magic_resist": {
+  "lightning_magic_resist": {
     "cost": 1,
     "description": {
       "text": "5% - Aumento de resistência a magia de Relampago"
@@ -2397,9 +2513,9 @@
         "type": "puffish_skills:attribute"
       }
     ],
-    "title": "Relâmpago Mágica Resist"
+    "title": "Resistencia contra magia de Relampago"
   },
-  "irons_spellbooks:lightning_spell_power": {
+  "lightning_spell_power": {
     "cost": 1,
     "description": {
       "text": "Aumento de 5% para magia de Relampago"
@@ -2427,9 +2543,9 @@
         "type": "puffish_skills:attribute"
       }
     ],
-    "title": "Relâmpago Poder de Magia"
+    "title": "Potencializar magia de Relampago"
   },
-  "irons_spellbooks:lightning_spell_power_high": {
+  "lightning_spell_power_high": {
     "cost": 1,
     "description": {
       "text": "Aumento de 8% para magia de Relampago"
@@ -2457,12 +2573,12 @@
         "type": "puffish_skills:attribute"
       }
     ],
-    "title": "Relâmpago Poder de Magia"
+    "title": "Potencializar magia de Relampago"
   },
-  "irons_spellbooks:lightning_spell_power_mega": {
+  "lightning_spell_power_mega": {
     "cost": 1,
     "description": {
-      "text": "Aumento de 20% para magia de Relampago"
+      "text": "Aumento de 100% para magia de Relampago"
     },
     "frame": {
       "data": {
@@ -2482,17 +2598,17 @@
         "data": {
           "attribute": "irons_spellbooks:lightning_spell_power",
           "operation": "addition",
-          "value": 0.2
+          "value": 1
         },
         "type": "puffish_skills:attribute"
       }
     ],
-    "title": "Relâmpago Poder de Magia"
+    "title": "Potencializar magia de Relampago"
   },
-  "irons_spellbooks:mana_regen": {
+  "mana_regen": {
     "cost": 1,
     "description": {
-      "text": "Aumenta a regeneração de mana."
+      "text": "Aumenta em 5% a regeneração de mana."
     },
     "frame": {
       "data": {
@@ -2502,7 +2618,7 @@
     },
     "icon": {
       "data": {
-        "item": "minecraft:enchanted_book"
+        "item": "minecraft:glow_ink_sac"
       },
       "type": "item"
     },
@@ -2517,12 +2633,12 @@
         "type": "puffish_skills:attribute"
       }
     ],
-    "title": "Mana Regeneração"
+    "title": "Aumento de Regeneração de Mana"
   },
-  "irons_spellbooks:max_mana": {
+  "max_mana": {
     "cost": 1,
     "description": {
-      "text": "Aumenta máximo mana."
+      "text": "Aumenta em 5% a mana máxima."
     },
     "frame": {
       "data": {
@@ -2532,7 +2648,7 @@
     },
     "icon": {
       "data": {
-        "item": "minecraft:enchanted_book"
+        "item": "minecraft:potion"
       },
       "type": "item"
     },
@@ -2547,9 +2663,9 @@
         "type": "puffish_skills:attribute"
       }
     ],
-    "title": "Máximo Mana"
+    "title": "Aumento de mana máxima"
   },
-  "irons_spellbooks:nature_magic_resist": {
+  "nature_magic_resist": {
     "cost": 1,
     "description": {
       "text": "5% - Aumento de resistência a magia de Natureza"
@@ -2577,9 +2693,9 @@
         "type": "puffish_skills:attribute"
       }
     ],
-    "title": "Natureza Mágica Resist"
+    "title": "Resistencia contra magia de Natureza"
   },
-  "irons_spellbooks:nature_spell_power": {
+  "nature_spell_power": {
     "cost": 1,
     "description": {
       "text": "Aumento de 5% para magia de Natureza"
@@ -2607,9 +2723,9 @@
         "type": "puffish_skills:attribute"
       }
     ],
-    "title": "Natureza Poder de Magia"
+    "title": "Potencializar magia de Natureza"
   },
-  "irons_spellbooks:nature_spell_power_high": {
+  "nature_spell_power_high": {
     "cost": 1,
     "description": {
       "text": "Aumento de 8% para magia de Natureza"
@@ -2637,12 +2753,12 @@
         "type": "puffish_skills:attribute"
       }
     ],
-    "title": "Natureza Poder de Magia"
+    "title": "Potencializar magia de Natureza"
   },
-  "irons_spellbooks:nature_spell_power_mega": {
+  "nature_spell_power_mega": {
     "cost": 1,
     "description": {
-      "text": "Aumento de 20% para magia de Natureza."
+      "text": "Aumento de 100% para magia de Natureza."
     },
     "frame": {
       "data": {
@@ -2662,14 +2778,14 @@
         "data": {
           "attribute": "irons_spellbooks:nature_spell_power",
           "operation": "addition",
-          "value": 0.2
+          "value": 1
         },
         "type": "puffish_skills:attribute"
       }
     ],
-    "title": "Natureza Poder de Magia"
+    "title": "Potencializar magia de Natureza"
   },
-  "irons_spellbooks:spell_power": {
+  "spell_power": {
     "cost": 1,
     "description": {
       "text": "Aumenta 5% de todas as magias."
@@ -2697,9 +2813,9 @@
         "type": "puffish_skills:attribute"
       }
     ],
-    "title": "Poder de Magia"
+    "title": "Potencializar poder mágico"
   },
-  "irons_spellbooks:spell_power_high": {
+  "spell_power_high": {
     "cost": 1,
     "description": {
       "text": "Aumenta 10% de todas as magias."
@@ -2727,9 +2843,9 @@
         "type": "puffish_skills:attribute"
       }
     ],
-    "title": "Poder de Magia"
+    "title": "Potencializar poder mágico"
   },
-  "irons_spellbooks:spell_resist": {
+  "spell_resist": {
     "cost": 1,
     "description": {
       "text": "Aumenta magia resist."
@@ -2757,9 +2873,9 @@
         "type": "puffish_skills:attribute"
       }
     ],
-    "title": "Magia Resist"
+    "title": "Resistencia contra magias"
   },
-  "irons_spellbooks:summon_damage": {
+  "summon_damage": {
     "cost": 1,
     "description": {
       "text": "Aumenta 5% o poder de invocação"
@@ -2782,14 +2898,14 @@
         "data": {
           "attribute": "irons_spellbooks:summon_damage",
           "operation": "addition",
-          "value": 0.05
+          "value": 0.5
         },
         "type": "puffish_skills:attribute"
       }
     ],
-    "title": "Invocação Dano"
+    "title": "Potencializar Evocações"
   },
-  "minecraft:generic.armor": {
+  "generic.armor": {
     "cost": 1,
     "description": {
       "text": "Aumenta armadura."
@@ -2819,7 +2935,7 @@
     ],
     "title": "Armadura"
   },
-  "minecraft:generic.armor_toughness": {
+  "generic.armor_toughness": {
     "cost": 1,
     "description": {
       "text": "Aumenta armadura tenacidade."
@@ -2849,7 +2965,7 @@
     ],
     "title": "Armadura Tenacidade"
   },
-  "minecraft:generic.attack_damage": {
+  "generic.attack_damage": {
     "cost": 1,
     "description": {
       "text": "Aumenta ataque dano."
@@ -2879,7 +2995,7 @@
     ],
     "title": "Ataque Dano"
   },
-  "minecraft:generic.attack_knockback": {
+  "generic.attack_knockback": {
     "cost": 1,
     "description": {
       "text": "Aumenta ataque recuo."
@@ -2909,7 +3025,7 @@
     ],
     "title": "Ataque Recuo"
   },
-  "minecraft:generic.attack_speed": {
+  "generic.attack_speed": {
     "cost": 1,
     "description": {
       "text": "Aumenta ataque velocidade."
@@ -2939,7 +3055,7 @@
     ],
     "title": "Ataque Velocidade"
   },
-  "minecraft:generic.knockback_resistance": {
+  "generic.knockback_resistance": {
     "cost": 1,
     "description": {
       "text": "Aumenta recuo resistência."
@@ -2969,7 +3085,7 @@
     ],
     "title": "Recuo Resistência"
   },
-  "minecraft:generic.luck": {
+  "generic.luck": {
     "cost": 1,
     "description": {
       "text": "Aumenta sorte."
@@ -2999,7 +3115,7 @@
     ],
     "title": "Sorte"
   },
-  "minecraft:generic.max_health": {
+  "generic.max_health": {
     "cost": 1,
     "description": {
       "text": "Aumenta máximo vida."
@@ -3022,14 +3138,14 @@
         "data": {
           "attribute": "generic.max_health",
           "operation": "addition",
-          "value": 0.05
+          "value": 5
         },
         "type": "puffish_skills:attribute"
       }
     ],
     "title": "Máximo Vida"
   },
-  "minecraft:generic.movement_speed": {
+  "generic.movement_speed": {
     "cost": 1,
     "description": {
       "text": "Aumenta movimento velocidade."
@@ -3059,7 +3175,7 @@
     ],
     "title": "Movimento Velocidade"
   },
-  "puffish_attributes:armor_shred": {
+  "armor_shred": {
     "cost": 1,
     "description": {
       "text": "Aumenta armadura rasgo."
@@ -3089,7 +3205,7 @@
     ],
     "title": "Armadura Rasgo"
   },
-  "puffish_attributes:axe_speed": {
+  "axe_speed": {
     "cost": 1,
     "description": {
       "text": "Aumenta machado velocidade."
@@ -3119,7 +3235,7 @@
     ],
     "title": "Machado Velocidade"
   },
-  "puffish_attributes:bow_projectile_speed": {
+  "bow_projectile_speed": {
     "cost": 1,
     "description": {
       "text": "Aumenta arco projétil velocidade."
@@ -3132,7 +3248,7 @@
     },
     "icon": {
       "data": {
-        "item": "minecraft:leather_boots"
+        "item": "minecraft:bow"
       },
       "type": "item"
     },
@@ -3149,7 +3265,7 @@
     ],
     "title": "Arco Projétil Velocidade"
   },
-  "puffish_attributes:crossbow_projectile_speed": {
+  "crossbow_projectile_speed": {
     "cost": 1,
     "description": {
       "text": "Aumenta besta projétil velocidade."
@@ -3162,7 +3278,7 @@
     },
     "icon": {
       "data": {
-        "item": "minecraft:leather_boots"
+        "item": "minecraft:crossbow"
       },
       "type": "item"
     },
@@ -3179,7 +3295,7 @@
     ],
     "title": "Besta Projétil Velocidade"
   },
-  "puffish_attributes:experience": {
+  "experience": {
     "cost": 1,
     "description": {
       "text": "Aumenta experiência."
@@ -3209,7 +3325,7 @@
     ],
     "title": "Experiência"
   },
-  "puffish_attributes:fall_reduction": {
+  "fall_reduction": {
     "cost": 1,
     "description": {
       "text": "Aumenta queda redução."
@@ -3239,7 +3355,7 @@
     ],
     "title": "Queda Redução"
   },
-  "puffish_attributes:fortune": {
+  "fortune": {
     "cost": 1,
     "description": {
       "text": "Aumenta fortuna."
@@ -3269,7 +3385,7 @@
     ],
     "title": "Fortuna"
   },
-  "puffish_attributes:healing": {
+  "healing": {
     "cost": 1,
     "description": {
       "text": "Aumenta cura."
@@ -3299,7 +3415,7 @@
     ],
     "title": "Cura"
   },
-  "puffish_attributes:jump": {
+  "jump": {
     "cost": 1,
     "description": {
       "text": "Aumenta pulo."
@@ -3329,7 +3445,7 @@
     ],
     "title": "Pulo"
   },
-  "puffish_attributes:knockback": {
+  "knockback": {
     "cost": 1,
     "description": {
       "text": "Aumenta recuo."
@@ -3359,7 +3475,7 @@
     ],
     "title": "Recuo"
   },
-  "puffish_attributes:life_steal": {
+  "life_steal": {
     "cost": 1,
     "description": {
       "text": "Aumenta vida dreno."
@@ -3389,7 +3505,7 @@
     ],
     "title": "Vida Dreno"
   },
-  "puffish_attributes:magic_damage": {
+  "magic_damage": {
     "cost": 1,
     "description": {
       "text": "Aumenta mágica dano."
@@ -3419,7 +3535,7 @@
     ],
     "title": "Mágica Dano"
   },
-  "puffish_attributes:magic_resistance": {
+  "magic_resistance": {
     "cost": 1,
     "description": {
       "text": "Aumenta resistência mágica."
@@ -3449,7 +3565,7 @@
     ],
     "title": "Resistência Mágica"
   },
-  "puffish_attributes:magic_resistance_shred": {
+  "magic_resistance_shred": {
     "cost": 1,
     "description": {
       "text": "Aumenta resistência mágica rasgo."
@@ -3479,7 +3595,7 @@
     ],
     "title": "Resistência Mágica Rasgo"
   },
-  "puffish_attributes:melee_damage": {
+  "melee_damage": {
     "cost": 1,
     "description": {
       "text": "Aumenta melee dano."
@@ -3509,7 +3625,7 @@
     ],
     "title": "Melee Dano"
   },
-  "puffish_attributes:melee_resistance": {
+  "melee_resistance": {
     "cost": 1,
     "description": {
       "text": "Aumenta melee resistência."
@@ -3539,7 +3655,7 @@
     ],
     "title": "Melee Resistência"
   },
-  "puffish_attributes:melee_resistance_shred": {
+  "melee_resistance_shred": {
     "cost": 1,
     "description": {
       "text": "Aumenta melee resistência rasgo."
@@ -3569,7 +3685,7 @@
     ],
     "title": "Melee Resistência Rasgo"
   },
-  "puffish_attributes:mining_speed": {
+  "mining_speed": {
     "cost": 1,
     "description": {
       "text": "Aumenta mineração velocidade."
@@ -3599,7 +3715,7 @@
     ],
     "title": "Mineração Velocidade"
   },
-  "puffish_attributes:natural_regeneration": {
+  "natural_regeneration": {
     "cost": 1,
     "description": {
       "text": "Aumenta natural regeneração."
@@ -3629,7 +3745,7 @@
     ],
     "title": "Natural Regeneração"
   },
-  "puffish_attributes:pickaxe_speed": {
+  "pickaxe_speed": {
     "cost": 1,
     "description": {
       "text": "Aumenta picareta velocidade."
@@ -3659,7 +3775,7 @@
     ],
     "title": "Picareta Velocidade"
   },
-  "puffish_attributes:protection_shred": {
+  "protection_shred": {
     "cost": 1,
     "description": {
       "text": "Aumenta proteção rasgo."
@@ -3689,7 +3805,7 @@
     ],
     "title": "Proteção Rasgo"
   },
-  "puffish_attributes:ranged_damage": {
+  "ranged_damage": {
     "cost": 1,
     "description": {
       "text": "Aumenta à distância dano."
@@ -3702,7 +3818,7 @@
     },
     "icon": {
       "data": {
-        "item": "minecraft:iron_sword"
+        "item": "minecraft:tipped_arrow"
       },
       "type": "item"
     },
@@ -3719,7 +3835,7 @@
     ],
     "title": "à Distância Dano"
   },
-  "puffish_attributes:ranged_resistance": {
+  "ranged_resistance": {
     "cost": 1,
     "description": {
       "text": "Aumenta à distância resistência."
@@ -3749,7 +3865,7 @@
     ],
     "title": "à Distância Resistência"
   },
-  "puffish_attributes:ranged_resistance_shred": {
+  "ranged_resistance_shred": {
     "cost": 1,
     "description": {
       "text": "Aumenta à distância resistência rasgo."
@@ -3779,7 +3895,7 @@
     ],
     "title": "à Distância Resistência Rasgo"
   },
-  "puffish_attributes:repair_cost": {
+  "repair_cost": {
     "cost": 1,
     "description": {
       "text": "Aumenta reparo custo."
@@ -3809,7 +3925,7 @@
     ],
     "title": "Reparo Custo"
   },
-  "puffish_attributes:resistance": {
+  "resistance": {
     "cost": 1,
     "description": {
       "text": "Aumenta resistência."
@@ -3839,7 +3955,7 @@
     ],
     "title": "Resistência"
   },
-  "puffish_attributes:resistance_shred": {
+  "resistance_shred": {
     "cost": 1,
     "description": {
       "text": "Aumenta resistência rasgo."
@@ -3869,7 +3985,7 @@
     ],
     "title": "Resistência Rasgo"
   },
-  "puffish_attributes:shovel_speed": {
+  "shovel_speed": {
     "cost": 1,
     "description": {
       "text": "Aumenta pá velocidade."
@@ -3899,7 +4015,7 @@
     ],
     "title": "Pá Velocidade"
   },
-  "puffish_attributes:sprinting_speed": {
+  "sprinting_speed": {
     "cost": 1,
     "description": {
       "text": "Aumenta corrida velocidade."
@@ -3929,7 +4045,7 @@
     ],
     "title": "Corrida Velocidade"
   },
-  "puffish_attributes:stamina": {
+  "stamina": {
     "cost": 1,
     "description": {
       "text": "Aumenta vigor."
@@ -3942,7 +4058,7 @@
     },
     "icon": {
       "data": {
-        "item": "minecraft:beef"
+        "item": "minecraft:leather_helmet"
       },
       "type": "item"
     },
@@ -3959,7 +4075,7 @@
     ],
     "title": "Vigor"
   },
-  "puffish_attributes:stealth": {
+  "stealth": {
     "cost": 1,
     "description": {
       "text": "Aumenta furtividade."
@@ -3989,7 +4105,7 @@
     ],
     "title": "Furtividade"
   },
-  "puffish_attributes:tamed_damage": {
+  "tamed_damage": {
     "cost": 1,
     "description": {
       "text": "Aumenta domados dano."
@@ -4019,7 +4135,7 @@
     ],
     "title": "Domados Dano"
   },
-  "puffish_attributes:tamed_resistance": {
+  "tamed_resistance": {
     "cost": 1,
     "description": {
       "text": "Aumenta domados resistência."
@@ -4049,7 +4165,7 @@
     ],
     "title": "Domados Resistência"
   },
-  "puffish_attributes:toughness_shred": {
+  "toughness_shred": {
     "cost": 1,
     "description": {
       "text": "Aumenta tenacidade rasgo."
@@ -4079,7 +4195,7 @@
     ],
     "title": "Tenacidade Rasgo"
   },
-  "reach-entity-attributes:attack_range": {
+  "attack_range": {
     "cost": 1,
     "description": {
       "text": "Aumenta ataque alcance."
@@ -4109,7 +4225,7 @@
     ],
     "title": "Ataque Alcance"
   },
-  "reach-entity-attributes:reach": {
+  "reach": {
     "cost": 1,
     "description": {
       "text": "Aumenta alcance."
@@ -4139,7 +4255,7 @@
     ],
     "title": "Alcance"
   },
-  "traveloptics:aqua_magic_resist": {
+  "aqua_magic_resist": {
     "cost": 1,
     "description": {
       "text": "5% - Aumento de resistência a magia de Água"
@@ -4167,9 +4283,9 @@
         "type": "puffish_skills:attribute"
       }
     ],
-    "title": "Água Mágica Resist"
+    "title": "Resistencia contra magia de Aqua"
   },
-  "traveloptics:aqua_spell_power": {
+  "aqua_spell_power": {
     "cost": 1,
     "description": {
       "text": "Aumento de 5% para magia de Água."
@@ -4197,9 +4313,9 @@
         "type": "puffish_skills:attribute"
       }
     ],
-    "title": "Água Poder de Magia"
+    "title": "Potencializar magia de Aqua"
   },
-  "traveloptics:aqua_spell_power_high": {
+  "aqua_spell_power_high": {
     "cost": 1,
     "description": {
       "text": "AAumento de 8% para magia de Água."
@@ -4227,12 +4343,12 @@
         "type": "puffish_skills:attribute"
       }
     ],
-    "title": "Água Poder de Magia"
+    "title": "Potencializar magia de Aqua"
   },
-  "traveloptics:aqua_spell_power_mega": {
+  "aqua_spell_power_mega": {
     "cost": 1,
     "description": {
-      "text": "Aumento de 20% para magia de Água."
+      "text": "Aumento de 100% para magia de Água."
     },
     "frame": {
       "data": {
@@ -4252,11 +4368,11 @@
         "data": {
           "attribute": "traveloptics:aqua_spell_power",
           "operation": "addition",
-          "value": 0.2
+          "value": 1
         },
         "type": "puffish_skills:attribute"
       }
     ],
-    "title": "Água Poder de Magia"
+    "title": "Potencializar magia de Aqua"
   }
 }

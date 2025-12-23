@@ -1,15 +1,15 @@
 {
-    "unlocked_by_default": true,
-    "exclusive_root": false,
-    "starting_points": 1,
-    "title": "Confluxo Supremo",
-    "description": "Uma árvore colossal que mistura artes de guerra, defesa impenetrável e magia destrutiva.",
-    "extra_description": "121 nós divididos em três grandes ramos: Guerra (ataque), Bastião (defesa) e Arcano (magia).",
-    "icon": {
-        "type": "item",
-        "data": {
-            "item": "minecraft:nether_star"
-        }
-    },
-    "background": "textures/gui/advancements/backgrounds/stone.png"
+  "unlocked_by_default": true,
+  "exclusive_root": false,
+  "starting_points": 1,
+  "title": "Confluxo Supremo",
+  "description": "Uma árvore colossal que mistura artes de guerra, defesa impenetrável e magia destrutiva.",
+  "extra_description": "121 nós divididos em três grandes ramos: Guerra (ataque), Bastião (defesa) e Arcano (magia).",
+  "icon": {
+    "type": "item",
+    "data": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "background": "textures/gui/advancements/backgrounds/stone.png"
 }
