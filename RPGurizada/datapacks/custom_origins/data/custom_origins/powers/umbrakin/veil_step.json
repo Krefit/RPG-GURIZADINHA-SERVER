@@ -1,0 +1,30 @@
+{
+  "type": "origins:active_self",
+  "key": { "key": "key.origins.primary_active" },
+  "cooldown": 600,
+  "hud_render": {
+    "should_render": true,
+    "bar_index": 2
+  },
+  "condition": {
+    "type": "origins:and",
+    "conditions": [
+      { "type": "origins:sneaking" },
+      {
+        "type": "origins:brightness",
+        "comparison": "<=",
+        "compare_to": 0.25
+      }
+    ]
+  },
+  "entity_action": {
+    "type": "origins:apply_effect",
+    "effect": {
+      "effect": "minecraft:invisibility",
+      "duration": 100,
+      "amplifier": 0,
+      "show_particles": false,
+      "show_icon": true
+    }
+  }
+}

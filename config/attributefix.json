@@ -176,6 +176,17 @@
         "value": 30
       }
     },
+    "gtbcs_spell_lib:spell_crit_damage": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
     "attributeslib:cold_damage": {
       "enabled": false,
       "min": {
@@ -253,6 +264,17 @@
         "value": 100
       }
     },
+    "gtbcs_spell_lib:spell_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
     "irons_spellbooks:eldritch_spell_power": {
       "enabled": false,
       "min": {
@@ -275,6 +297,17 @@
         "value": 1024
       }
     },
+    "gtbcs_spell_lib:magic_projectile_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
     "additionalentityattributes:lava_visibility": {
       "enabled": false,
       "min": {
@@ -284,6 +317,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "irons_spellbooks:casting_movespeed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "irons_spellbooks:cast_time_reduction": {
@@ -870,6 +914,17 @@
       }
     },
     "additionalentityattributes:lava_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "gtbcs_spell_lib:spell_crit_chance": {
       "enabled": false,
       "min": {
         "default": 0,

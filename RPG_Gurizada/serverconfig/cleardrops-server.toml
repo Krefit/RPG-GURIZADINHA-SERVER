@@ -1,0 +1,50 @@
+
+[general]
+	#是否启用周期性自动回收世界掉落物。
+	enableAutoCollect = true
+	#两次自动回收之间的间隔（tick）。20 tick = 1 秒。
+	#Range: 20 ~ 72000
+	ticksPerCollect = 6000
+	#每次回收后，回收站物品保留的时间（tick），到时自动清空。20 tick = 1 秒。
+	#Range: 0 ~ 72000
+	ticksKeepAfterCollect = 2400
+	#是否向在线玩家广播提示消息（预警、已回收、已清空等）。
+	announceMessages = true
+
+[blacklist]
+	#物品黑名单（物品 ID，形如 minecraft:nether_star）。黑名单内的物品不会被本模组清空/销毁。
+	items = ["minecraft:nether_star", "minecraft:totem_of_undying"]
+
+[void_protection]
+	#是否启用虚空物品保护（掉落物掉入虚空时，自动拉回到世界最低构建高度以上的安全位置）。
+	enableVoidProtect = true
+	#向上寻找空气可站立位置的最大步数（以方块为单位）。
+	#Range: 1 ~ 32
+	raiseMaxSteps = 6
+	#拉回时是否将物品速度清零。
+	resetVelocity = true
+
+[messages]
+	#消息前缀（支持渐变标签）。示例：<gradient:#00E5FF:#00FF7F>[清道夫]</gradient>
+	prefix = "<gradient:#00E5FF:#00FF7F>[清道夫]</gradient>"
+	#自动回收前的预警秒数列表（到这些秒数时会发送预警消息）。
+	warnSeconds = [60, 30, 10, 5, 4, 3, 2, 1]
+	#预警消息模板（支持占位符与渐变标签）。可用占位符：{time}（剩余秒数）。
+	msgPreCollect = "即将在 {time}s 后回收世界掉落物，请及时拾取重要物品！"
+	#自动回收完成消息模板。占位符：{entities}（实体数量）、{keep}（回收站保留秒数）。
+	msgCollected = "已回收掉落物，共 {entities} 个实体。使用 /cleardrops gui 领取，{keep}s 后清空。"
+	#回收站清空消息模板。占位符：{slots}（被清空的槽位数）。
+	msgPurged = "回收站已到期，清空 {slots} 个槽位。"
+	#状态消息模板。占位符：{slotsUsed}、{slotsTotal}、{items}、{keep}（倒计时或'未安排'）、{auto}、{interval}（秒）、{keepCfg}（秒）、{announce}。
+	msgStatus = "回收站：{slotsUsed}/{slotsTotal} 槽，物品 {items} 个；清空倒计时：{keep}；自动回收：{auto}，间隔：{interval}s，保留：{keepCfg}s，广播：{announce}。"
+	#help 文本（支持渐变标签与换行 \n）。建议给标题或命令加一个好看的渐变色。
+	msgHelp = "<gradient:#7AD7F0:#4FC3F7>Cleardrops 帮助</gradient>\\n<gradient:#A8FF78:#78FFD6>/cleardrops gui</gradient> - 打开回收站\\n<gradient:#A8FF78:#78FFD6>/cleardrops status</gradient> - 查看状态\\n<gradient:#FFD54F:#FF8A00>/cleardrops collect</gradient> - 立即回收（权限2）\\n<gradient:#FFD54F:#FF8A00>/cleardrops purge</gradient> - 立即清空（权限2）\\n<gradient:#B388FF:#7C4DFF>/cleardrops reload</gradient> - 重载配置（权限2）"
+	#手动执行 /cleardrops collect 时的反馈消息。占位符：{entities}、{keep}。
+	msgCmdCollect = "已回收掉落物，共 {entities} 个实体。{keep}s 内可在回收站领取。"
+	#手动执行 /cleardrops collect 时如没有可清理的掉落物时的反馈消息。
+	msgCmdCollectNone = "没有可清理的掉落物！"
+	#自动回收时如果没有掉落物的广播消息。
+	msgAutoCollectNone = "本次自动回收没有可清理的掉落物。"
+	#手动执行 /cleardrops purge 时的反馈消息。占位符：{slots}。
+	msgCmdPurge = "已清空回收站，清除了 {slots} 个槽位中的物品（黑名单物品已跳过）。"
+

@@ -12239,6 +12239,42 @@
     },
     "done": true
   },
+  "cataclysm:find_frosted_prison": {
+    "criteria": {
+      "prison": "2025-12-07 09:57:13 -0300"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/ghostly_pickaxe": {
+    "criteria": {
+      "ghostly_pickaxe": "2025-12-07 09:58:26 -0300"
+    },
+    "done": true
+  },
+  "cataclysm:kill_maledictus": {
+    "criteria": {
+      "ignis": "2025-12-07 10:03:00 -0300"
+    },
+    "done": true
+  },
+  "traveloptics:the_obliterator": {
+    "criteria": {
+      "get_obliterator": "2025-12-07 10:15:25 -0300"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/enter_catacombs": {
+    "criteria": {
+      "in_catacombs": "2025-12-07 10:30:06 -0300"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/spell_book_dead_king": {
+    "criteria": {
+      "requirement": "2025-12-07 10:31:48 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stripped_mangrove_wood": {
     "criteria": {
       "has_log": "2025-12-07 10:41:20 -0300"
@@ -12251,45 +12287,261 @@
     },
     "done": true
   },
-  "irons_spellbooks:irons_spellbooks/spell_book_dead_king": {
-    "criteria": {
-      "requirement": "2025-12-07 10:31:48 -0300"
-    },
-    "done": true
-  },
-  "cataclysm:find_frosted_prison": {
-    "criteria": {
-      "prison": "2025-12-07 09:57:13 -0300"
-    },
-    "done": true
-  },
-  "irons_spellbooks:irons_spellbooks/enter_catacombs": {
-    "criteria": {
-      "in_catacombs": "2025-12-07 10:30:06 -0300"
-    },
-    "done": true
-  },
-  "alexsmobs:alexsmobs/ghostly_pickaxe": {
-    "criteria": {
-      "ghostly_pickaxe": "2025-12-07 09:58:26 -0300"
-    },
-    "done": true
-  },
-  "traveloptics:the_obliterator": {
-    "criteria": {
-      "get_obliterator": "2025-12-07 10:15:25 -0300"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/mangrove_hanging_sign": {
     "criteria": {
       "has_stripped_logs": "2025-12-07 10:41:20 -0300"
     },
     "done": true
   },
-  "cataclysm:kill_maledictus": {
+  "minecraft:recipes/misc/light_blue_dye_from_blue_orchid": {
     "criteria": {
-      "ignis": "2025-12-07 10:03:00 -0300"
+      "has_blue_orchid": "2025-12-13 18:24:54 -0300"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/slicing/light_blue_dye_from_blue_orchid": {
+    "criteria": {
+      "has_blue_orchid": "2025-12-13 18:24:54 -0300"
+    },
+    "done": true
+  },
+  "scalinghealth:recipes/misc/heart_crystal": {
+    "criteria": {
+      "has_the_recipe": "2025-12-13 18:55:55 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_banner": {
+    "criteria": {
+      "has_brown_wool": "2025-12-13 18:59:39 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_bed": {
+    "criteria": {
+      "has_brown_wool": "2025-12-13 18:59:39 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_carpet": {
+    "criteria": {
+      "has_brown_wool": "2025-12-13 18:59:39 -0300"
+    },
+    "done": true
+  },
+  "trashcans:recipes/misc/energy_trash_can": {
+    "criteria": {
+      "recipe_condition": "2025-12-13 19:31:13 -0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/storage_uranium_to_ingot_uranium": {
+    "criteria": {
+      "has_storage_uranium": "2025-12-13 19:33:04 -0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/ingot_uranium_to_storage_uranium": {
+    "criteria": {
+      "has_ingot_uranium": "2025-12-13 19:33:04 -0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/plate_uranium_hammering": {
+    "criteria": {
+      "has_uranium_ingot": "2025-12-13 19:33:04 -0300"
+    },
+    "done": true
+  },
+  "trashcans:recipes/misc/liquid_trash_can": {
+    "criteria": {
+      "recipe_condition": "2025-12-13 19:34:21 -0300"
+    },
+    "done": true
+  },
+  "aether:recipes/misc/aether_tune_enchanting": {
+    "criteria": {
+      "has_disc": "2025-12-13 19:34:21 -0300"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/iron_hippogryph_armor": {
+    "criteria": {
+      "has_item": "2025-12-13 19:34:24 -0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/ingot_silver_to_storage_silver": {
+    "criteria": {
+      "has_ingot_silver": "2025-12-13 19:34:46 -0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/storage_silver_to_ingot_silver": {
+    "criteria": {
+      "has_storage_silver": "2025-12-13 19:34:46 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/packed_mud": {
+    "criteria": {
+      "has_mud": "2025-12-13 19:35:27 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_copper_stairs_from_copper_block_stonecutting": {
+    "criteria": {
+      "has_copper_block": "2025-12-13 19:35:41 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_copper": {
+    "criteria": {
+      "has_copper_block": "2025-12-13 19:35:41 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_copper_block_from_honeycomb": {
+    "criteria": {
+      "has_copper_block": "2025-12-13 19:35:41 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_copper_from_copper_block_stonecutting": {
+    "criteria": {
+      "has_copper_block": "2025-12-13 19:35:41 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot": {
+    "criteria": {
+      "has_copper_block": "2025-12-13 19:35:41 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_copper_slab_from_copper_block_stonecutting": {
+    "criteria": {
+      "has_copper_block": "2025-12-13 19:35:41 -0300"
+    },
+    "done": true
+  },
+  "trashcans:recipes/misc/item_trash_can": {
+    "criteria": {
+      "recipe_condition": "2025-12-13 19:35:50 -0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/plate_lead_hammering": {
+    "criteria": {
+      "has_lead_ingot": "2025-12-13 19:36:43 -0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/capacitor_lv": {
+    "criteria": {
+      "has_lead_ingot": "2025-12-13 19:36:43 -0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/smelting/lead_red": {
+    "criteria": {
+      "has_lead": "2025-12-13 19:36:43 -0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/storage_lead_to_ingot_lead": {
+    "criteria": {
+      "has_storage_lead": "2025-12-13 19:36:43 -0300"
+    },
+    "done": true
+  },
+  "scalinghealth:recipes/misc/heart_dust": {
+    "criteria": {
+      "cobblestone": "2025-12-13 19:36:43 -0300"
+    },
+    "done": true
+  },
+  "scalinghealth:recipes/misc/power_crystal": {
+    "criteria": {
+      "cobblestone": "2025-12-13 19:36:43 -0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/ingot_lead_to_storage_lead": {
+    "criteria": {
+      "has_ingot_lead": "2025-12-13 19:36:43 -0300"
+    },
+    "done": true
+  },
+  "scalinghealth:recipes/combat/bandages": {
+    "criteria": {
+      "cobblestone": "2025-12-13 19:36:43 -0300"
+    },
+    "done": true
+  },
+  "scalinghealth:recipes/combat/medkit": {
+    "criteria": {
+      "cobblestone": "2025-12-13 19:36:43 -0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/wire_lead": {
+    "criteria": {
+      "has_lead_ingot": "2025-12-13 19:36:43 -0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/storage_nickel_to_ingot_nickel": {
+    "criteria": {
+      "has_storage_nickel": "2025-12-13 19:37:34 -0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/capacitor_mv": {
+    "criteria": {
+      "has_nickel_ingot": "2025-12-13 19:37:34 -0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/capacitor_hv": {
+    "criteria": {
+      "has_nickel_ingot": "2025-12-13 19:37:34 -0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/plate_nickel_hammering": {
+    "criteria": {
+      "has_nickel_ingot": "2025-12-13 19:37:34 -0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/ingot_nickel_to_storage_nickel": {
+    "criteria": {
+      "has_ingot_nickel": "2025-12-13 19:37:34 -0300"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/cave_book": {
+    "criteria": {
+      "cave_book": "2025-12-13 19:38:07 -0300"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/decorations/wood/oak_banister": {
+    "criteria": {
+      "has_item": "2025-12-13 19:38:19 -0300"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/rattlesnake": {
+    "criteria": {
+      "killed": "2025-12-13 19:50:23 -0300"
+    },
+    "done": true
+  },
+  "threateningly_mobs:inferno_defeat": {
+    "criteria": {
+      "inferno_defeat_0": "2025-12-14 15:36:35 -0300"
     },
     "done": true
   },

@@ -1,0 +1,16 @@
+{
+  "name": "Umbrakin",
+  "description": [
+    "Filhos do véu: enxergam na escuridão e desaparecem nas sombras.",
+    "Fracos sob luz solar direta."
+  ],
+  "icon": { "item": "minecraft:ender_pearl" },
+  "impact": 2,
+  "powers": [
+    "mcserver:umbrakin/night_eyes",
+    "mcserver:umbrakin/veil_step",
+    "mcserver:umbrakin/shadow_stride",
+    "mcserver:umbrakin/daylight_burn",
+    "mcserver:umbrakin/day_hunger"
+  ]
+}

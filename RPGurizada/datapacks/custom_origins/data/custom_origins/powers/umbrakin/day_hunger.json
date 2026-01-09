@@ -1,0 +1,11 @@
+{
+  "type": "origins:action_over_time",
+  "interval": 40,
+  "condition": {
+    "type": "origins:daytime"
+  },
+  "entity_action": {
+    "type": "origins:exhaust",
+    "amount": 0.25
+  }
+}
