@@ -1,0 +1,40 @@
+{
+	id: "29809f17-a369-4d4f-b0c1-032b7ee250b9"
+	type: "party"
+	owner: "3674f46b-b602-32cf-8283-8913484cadbd"
+	ranks: {
+		dcaac498-844c-3aa8-8579-84ef3a2da8bc: "member"
+		3674f46b-b602-32cf-8283-8913484cadbd: "owner"
+		5a58793e-409e-36d3-9a17-1d848601914e: "member"
+		e1a87ac0-98bd-3000-90f2-7fa8df3a0dc8: "member"
+	}
+	properties: {
+		"ftbteams:display_name": "TeuCu"
+		"ftbteams:description": ""
+		"ftbteams:color": "#59EAFF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+		"ftbchunks:allow_explosions": 0b
+		"ftbchunks:allow_mob_griefing": 0b
+		"ftbchunks:allow_fake_players": 0b
+		"ftbchunks:allow_named_fake_players": [ ]
+		"ftbchunks:allow_fake_players_by_id": 1b
+		"ftbchunks:allow_pvp": 1b
+		"ftbchunks:block_edit_mode": "allies"
+		"ftbchunks:block_interact_mode": "allies"
+		"ftbchunks:entity_interact_mode": "allies"
+		"ftbchunks:nonliving_entity_attack_mode": "allies"
+		"ftbchunks:claim_visibility": "public"
+		"ftbchunks:location_mode": "allies"
+	}
+	message_history: [
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1768065205627L, text: "{\"color\":\"yellow\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"BobaKrefit\"}]}" }
+		{ from: "3674f46b-b602-32cf-8283-8913484cadbd", date: 1768065222245L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.invited\",\"with\":[{\"color\":\"yellow\",\"text\":\"OwlBiel\"}]}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1768065224624L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"OwlBiel\"}]}" }
+		{ from: "3674f46b-b602-32cf-8283-8913484cadbd", date: 1768066244904L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.invited\",\"with\":[{\"color\":\"yellow\",\"text\":\"Kaothx\"}]}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1768066253489L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"Kaothx\"}]}" }
+		{ from: "3674f46b-b602-32cf-8283-8913484cadbd", date: 1768173597515L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.invited\",\"with\":[{\"color\":\"yellow\",\"text\":\"Samuelfcstro\"}]}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1768173609691L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"Samuelfcstro\"}]}" }
+	]
+	extra: { }
+}

@@ -2,9 +2,7 @@
 	id: "5a58793e-409e-36d3-9a17-1d848601914e"
 	type: "player"
 	player_name: "Samuelfcstro"
-	ranks: {
-		5a58793e-409e-36d3-9a17-1d848601914e: "owner"
-	}
+	ranks: { }
 	properties: {
 		"ftbteams:display_name": "Samuelfcstro"
 		"ftbteams:description": ""

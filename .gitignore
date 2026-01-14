@@ -2,3 +2,5 @@
 *.lock
 *.dat
 *.log.gz
+*.txt
+logs/debug.log

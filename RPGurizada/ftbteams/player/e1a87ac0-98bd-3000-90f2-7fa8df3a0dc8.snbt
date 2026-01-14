@@ -2,9 +2,7 @@
 	id: "e1a87ac0-98bd-3000-90f2-7fa8df3a0dc8"
 	type: "player"
 	player_name: "OwlBiel"
-	ranks: {
-		e1a87ac0-98bd-3000-90f2-7fa8df3a0dc8: "owner"
-	}
+	ranks: { }
 	properties: {
 		"ftbteams:display_name": "OwlBiel"
 		"ftbteams:description": ""

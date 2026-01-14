@@ -2,9 +2,7 @@
 	id: "3674f46b-b602-32cf-8283-8913484cadbd"
 	type: "player"
 	player_name: "BobaKrefit"
-	ranks: {
-		3674f46b-b602-32cf-8283-8913484cadbd: "owner"
-	}
+	ranks: { }
 	properties: {
 		"ftbteams:display_name": "BobaKrefit"
 		"ftbteams:description": ""

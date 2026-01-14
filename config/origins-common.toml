@@ -91,3 +91,11 @@
 		"origins:fragile" = true
 		"origins:phantomize_overlay" = true
 
+	[origins."custom_origins:umbrakin"]
+		enabled = true
+		"custom_origins:umbrakin/night_eyes" = true
+		"custom_origins:umbrakin/veil_step" = true
+		"custom_origins:umbrakin/shadow_stride" = true
+		"custom_origins:umbrakin/daylight_burn" = true
+		"custom_origins:umbrakin/day_hunger" = true
+

@@ -2,9 +2,7 @@
 	id: "dcaac498-844c-3aa8-8579-84ef3a2da8bc"
 	type: "player"
 	player_name: "Kaothx"
-	ranks: {
-		dcaac498-844c-3aa8-8579-84ef3a2da8bc: "owner"
-	}
+	ranks: { }
 	properties: {
 		"ftbteams:display_name": "Kaothx"
 		"ftbteams:description": ""
